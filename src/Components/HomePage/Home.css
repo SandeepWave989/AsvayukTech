@@ -1,0 +1,184 @@
+.banner_textInfo h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 750;
+}
+.caseStuides {
+    padding-block:80px;
+    background-color: var(--mainlight);
+}
+.caseStuides .container .container_extraWidth {
+    width: 1400px;
+}
+.caseStuides_content h5 {
+    color: var(--para);
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.caseStuides_para {
+    padding: 14px 14px 10px;
+    background-color: #ffff;
+}
+.caseStuides_para h5 {
+    font-size: 1.2rem;
+}
+.swiper-slide .caseStuides_MainContent {
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.13);
+}
+.Empowering {
+    padding-bottom: 80px;
+    background-color: var(--mainlight);
+}
+.Empowering_title h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.bg_empowering {
+    background: rgb(44, 190, 154);
+    background: linear-gradient(287deg, rgba(44, 190, 154, 1) 0%, rgb(7 48 38) 62%);
+    height: 100%;
+}
+.Empowering_content a  {
+    font-size: 18px;
+}
+.Empowering_content svg{
+    font-size: 25px !important;
+}
+.Empowering_content h5{
+    font-size: 1.20rem ;
+}
+.Industries {
+    padding-block: 60px;
+}
+.Industries .container {
+    max-width: 950px !important;
+}
+.industries_info {
+    padding: 10px;
+}
+.industries_info:hover {
+    background: var(--dark);
+    color: var(--light);
+    transition: 0.3s;
+}
+.Experience {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 40px;
+    background-color: var(--mainlight);
+}
+.experienceBg {
+    position: absolute;
+    bottom: -4%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+.Experience .container {
+    max-width: 950px;
+}
+.experience_content h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.experience_content p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.fullCaseStudy .conianer-fluid .row {
+    padding: 80px 0 80px 200px;
+}
+.fullCaseStudy_slider_logo img {
+    width: auto !important;
+    height: 80px !important;
+  aspect-ratio: 3/2;
+  object-fit: contain; 
+}
+.fullCaseStudy_slider_logo svg {
+    width: auto !important;
+    height: 80px !important;
+  aspect-ratio: 5/2;
+  object-fit: contain; 
+}
+.fullCaseStudy_url {
+    font-size: 18px;
+    font-weight: 600;
+}
+.fullCaseStudy_img {
+    height: 480px;
+    width: 600px;
+}
+.fullCaseStudy_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+.slider_bg3_logo {
+    width: 100px !important;
+}
+.slider_bg1 {
+    background-color: #fff3e1;
+}
+.slider_bg2 {
+    background-color: #FFFDF4;
+}
+
+.slider_bg3 {
+    background-color: #E1FBFC;
+}
+.slider_bg4 {
+    background-color: #DADADA;
+}
+.slider_bg5 {
+    background-color: #C3CAEB;
+}
+.Our_Relationships {
+    padding-block: 55px;
+    background-color: var(--mainlight);
+}
+
+.LifeWaveInfoTech {
+    padding-block: 40px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* .wavelife_img {
+    height: 420px;
+    width: 100%;
+} */
+
+.wavelife_img img {
+    height: 100%;
+    aspect-ratio: 3/2;
+}
+
+.Experienceg_title h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.Experienceg_title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.affiliationImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 161px;
+    height: 110px;
+}
+.affiliationImg img {
+   width: 100%;
+   height: auto;
+   object-fit: contain !important;
+}
+.Relationships_title h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}

@@ -1,0 +1,86 @@
+import './CaseStudies.css'
+import { Breadcrumb, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import BannerButton from '../BannerBtn/BannerButton'
+import CaseCard from './CaseCard'
+import caseStuBanner from '../../Images/caseStuBanner.webp'
+import caseStu from '../../Images/caseStu.webp'
+import caseStu1 from '../../Images/caseStu1.webp'
+import caseStu2 from '../../Images/caseStu2.webp'
+import caseStu3 from '../../Images/caseStu3.webp'
+import caseStu4 from '../../Images/caseStu4.webp'
+import caseStu5 from '../../Images/caseStu5.webp'
+import caseStu6 from '../../Images/caseStu6.webp'
+import caseStu8 from '../../Images/caseStu8.webp'
+import caseLogo1 from '../../Images/caseLogo1.webp'
+import caseLogo2 from '../../Images/moonlight_logo.webp'
+import caseLogo3 from '../../Images/caseLogo3.webp'
+import caseLogo4 from '../../Images/49thcoffee_logo.webp'
+import caseLogo5 from '../../Images/kri_logo.webp'
+import caseLogo6 from '../../Images/SpiceTribe_logo.webp'
+import caseLogo7 from '../../Images/bookmytask_logo.webp'
+import caseLogo8 from '../../Images/kre.webp'
+import Meta_Component from '../Meta_Component/Meta_Component'
+
+
+function CaseStudies() {
+    return (
+        
+        <>
+         <Meta_Component 
+        title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
+        description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
+         canonical="https://asvayuktech.com/case-studies"
+       />
+            <main>
+
+                <section className="caseStudies_main">
+                    <Container className="pb-0 pb-lg-5 pb-md-5">
+                        <div className="Casemain_content">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6 col-sm-12 ">
+                                    <Breadcrumb>
+                                        <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
+                                        <Breadcrumb.Item active>Case Studies</Breadcrumb.Item>
+                                    </Breadcrumb>
+                                    <h1 className="caseStuides_heading pt-3">Technological Innovations: Practical Solutions,
+                                        Advancing Digital Evolution</h1>
+                                    <div className='my-3 my-lg-5 my-md-5'>
+                                        <BannerButton btnTitle='Free Consultation' url='/contact-us' />
+                                    </div>
+                                </div>
+                                <div className="caseBanner col-lg-6 col-12">
+                                    <img src={caseStuBanner} className="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                    </Container>
+                </section>
+
+                <section className="singleCaseplan py-5">
+                    <Container>
+
+                        <CaseCard caseLogo={caseLogo1} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Australia' url='#' btnTitle='View Case Study' caseImg={caseStu} cardChild='card_child_1' cardImgClass='card_img' />
+
+                        <CaseCard caseLogo={caseLogo2} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Qatar' url='#' btnTitle='View Case Study' caseImg={caseStu2} cardChild='card_child_1 card_child_2' cardImgClass='card_img card_img2' />
+
+                        <CaseCard caseLogo={caseLogo3} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu3} cardChild='card_child_1 card_child_3' cardImgClass='card_img card_img3' />
+
+                        <CaseCard caseLogo={caseLogo4} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu4} cardChild='card_child_1 card_child_4' cardImgClass='card_img card_img4' />
+
+                        <CaseCard caseLogo={caseLogo5} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='India' url='#' btnTitle='View Case Study' caseImg={caseStu5} cardChild='card_child_1 card_child_5' cardImgClass='card_img card_img5' />
+
+                        <CaseCard caseLogo={caseLogo6} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu1} cardChild='card_child_1 card_child_6' cardImgClass='card_img card_img6' />
+
+                        <CaseCard caseLogo={caseLogo7} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu8} cardChild='card_child_1 card_child_7' cardImgClass='card_img card_img7' />
+
+                        <CaseCard caseLogo={caseLogo8} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu6} cardChild='card_child_1 card_child_8' cardImgClass='card_img card_img8' />
+
+                    </Container>
+                </section>
+            </main>
+        </>
+    )
+}
+
+export default CaseStudies
