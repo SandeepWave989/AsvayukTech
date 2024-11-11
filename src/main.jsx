@@ -35,6 +35,7 @@ import Crypto_Software_Developer_in_Chandigarh from './Components/BlogPage/Crypt
 import Crypto_Exchange_Developer from './Components/BlogPage/Crypto_Exchange_Developer.jsx';
 import Blockchain_Developer from './Components/BlogPage/Blockchain_Developer.jsx';
 import CRMDdeveloper from './Components/BlogPage/CRMDdeveloper.jsx';
+import MLM_Software from './Components/ProductPages/MLM_Software.jsx';
 
 
 const router = createBrowserRouter([
@@ -74,8 +75,10 @@ const router = createBrowserRouter([
       { path: "/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali", element: <Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali /> },
       { path: "/blog/Crypto-Software-Developer-in-Chandigarh", element: <Crypto_Software_Developer_in_Chandigarh /> },
       { path: "/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali", element: <Crypto_Exchange_Developer /> },
-      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <BlockChain /> },
+      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <Blockchain_Developer /> },
       { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
+      // Product Pages
+      { path: "/mlm-software", element: <MLM_Software /> },
     ],
   },
 ]);

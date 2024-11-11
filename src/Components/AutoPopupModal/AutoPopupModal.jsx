@@ -26,7 +26,7 @@ const AutoPopupModal = () => {
                 <Modal.Header>
                     <Modal.Title>Welcome!</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>This is a popup message displayed after 30 seconds.</Modal.Body>
+                <Modal.Body>This is a popup message displayed.</Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close

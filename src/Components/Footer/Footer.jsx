@@ -8,7 +8,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { FaEnvelope, FaInstagram, FaLinkedin, FaPhoneAlt, FaPinterestP, FaSkype } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
 import React, { useState } from 'react';
-import { Modal, Row} from 'react-bootstrap';
+import { Modal, Row } from 'react-bootstrap';
 import { FaWhatsapp } from 'react-icons/fa6'
 import { FaFacebookF, FaLinkedinIn, FaLocationDot, FaPhone, FaXTwitter } from 'react-icons/fa6';
 import { MdMail } from 'react-icons/md';
@@ -29,151 +29,151 @@ function Footer() {
         email: '',
         phone: '',
         message: '',
-      });
-    
-      const handleChange = (e) => {
+    });
+
+    const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
-      };
+    };
 
     return (
         <>
             <main>
 
-            {!footerShow.includes(location.pathname) && (
-                <section className="readTransform">
-                    <div className="container">
-                        <div className="row">
-                            <div className="readTransform_content text-center">
-                                <h2 className="pb-4 mb-0 fw-semibold">
-                                    Are you prepared to change the direction of your growth? Let's
-                                    collaborate to invent! Get in touch with us to transform your technological journey.
-                                </h2>
-                                <button className="btnHome bg-white d-inline-block text-dark px-4 fs-5 rounded-1 fw-medium border-0 outline-0" onClick={handleShow}>
-                                    <p className='pt-3 text-dark fw-semibold'>
-                                        Let's Discuss
+                {!footerShow.includes(location.pathname) && (
+                    <section className="readTransform">
+                        <div className="container">
+                            <div className="row">
+                                <div className="readTransform_content text-center">
+                                    <h2 className="pb-4 mb-0 fw-semibold">
+                                        Are you prepared to change the direction of your growth? Let's
+                                        collaborate to invent! Get in touch with us to transform your technological journey.
+                                    </h2>
+                                    <button className="btnHome bg-white d-inline-block text-dark px-4 fs-5 rounded-1 fw-medium border-0 outline-0" onClick={handleShow}>
+                                        <p className='pt-3 text-dark fw-semibold'>
+                                            Let's Discuss
                                         </p>
                                     </button>
-                               
+
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-            )}
+                    </section>
+                )}
 
-<Modal show={show} onHide={handleClose} size="lg">
-  <Modal.Header closeButton>
-  
-  </Modal.Header>
-  <Modal.Body>
-  <div className="">
-      <div className="form">
-        <Row>
-        <div className="contact-info d-none d-lg-block col-lg-6 px-5">
-          <h3 className="title">Let's get in touch</h3>
-          <p className="text">
-          Ready to grow? Reach out to Asvayuk Technologies for software and digital marketing!
-          </p>
-          <div className="info">
-            <div className="information">
-            <FaLocationDot />
-              <p>SCO-44, Sector 5-MDC,Panchkula,Haryana</p>
-            </div>
-            <div className="information">
-            <MdMail />
-              <p>info@asvayuktech.com</p>
-            </div>
-            <div className="information">
-            <FaPhone />
-              <p>+91 94782 14592</p>
-            </div>
-          </div>
-          <div className="social-media">
-            <p>Connect with us :</p>
-            <div className="social-icons">
-              <a href=" https://www.facebook.com/asvayuktechnologies/">
-              <FaFacebookF />
-              </a>
-              <a href="https://x.com/asvayuktech">
-              <FaXTwitter />
-              </a>
-              <a href="https://www.instagram.com/asvayuktechnologies/">
-              <FaInstagram />
-              </a>
-              <a href="https://www.linkedin.com/company/asvayuk-technologies/">
-              <FaLinkedinIn />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="contact-form col-lg-6">
-      <span className="circle one"></span>
-      <span className="circle two"></span>
-      <form action="index.html" autoComplete="off">
-        <h3 className="title">Contact us</h3>
+                <Modal show={show} onHide={handleClose} size="lg">
+                    <Modal.Header closeButton>
 
-        {/* Username input */}
-        <div className={`input-container ${formData.name ? 'focused' : ''}`}>
-          <input
-            type="text"
-            name="name"
-            className="input"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-          <label>Username</label>
-          <span>Username</span>
-        </div>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <div className="">
+                            <div className="form">
+                                <Row>
+                                    <div className="contact-info d-none d-lg-block col-lg-6 px-5">
+                                        <h3 className="title">Let's get in touch</h3>
+                                        <p className="text">
+                                            Ready to grow? Reach out to Asvayuk Technologies for software and digital marketing!
+                                        </p>
+                                        <div className="info">
+                                            <div className="information">
+                                                <FaLocationDot />
+                                                <p>SCO-44, Sector 5-MDC,Panchkula,Haryana</p>
+                                            </div>
+                                            <div className="information">
+                                                <MdMail />
+                                                <p>info@asvayuktech.com</p>
+                                            </div>
+                                            <div className="information">
+                                                <FaPhone />
+                                                <p>+91 94782 14592</p>
+                                            </div>
+                                        </div>
+                                        <div className="social-media">
+                                            <p>Connect with us :</p>
+                                            <div className="social-icons">
+                                                <a href=" https://www.facebook.com/asvayuktechnologies/">
+                                                    <FaFacebookF />
+                                                </a>
+                                                <a href="https://x.com/asvayuktech">
+                                                    <FaXTwitter />
+                                                </a>
+                                                <a href="https://www.instagram.com/asvayuktechnologies/">
+                                                    <FaInstagram />
+                                                </a>
+                                                <a href="https://www.linkedin.com/company/asvayuk-technologies/">
+                                                    <FaLinkedinIn />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="contact-form col-lg-6">
+                                        <span className="circle one"></span>
+                                        <span className="circle two"></span>
+                                        <form action="index.html" autoComplete="off">
+                                            <h3 className="title">Contact us</h3>
 
-        {/* Email input */}
-        <div className={`input-container ${formData.email ? 'focused' : ''}`}>
-          <input
-            type="email"
-            name="email"
-            className="input"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-          <label>Email</label>
-          <span>Email</span>
-        </div>
+                                            {/* Username input */}
+                                            <div className={`input-container ${formData.name ? 'focused' : ''}`}>
+                                                <input
+                                                    type="text"
+                                                    name="name"
+                                                    className="input"
+                                                    value={formData.name}
+                                                    onChange={handleChange}
+                                                    required
+                                                />
+                                                <label>Username</label>
+                                                <span>Username</span>
+                                            </div>
 
-        {/* Phone input */}
-        <div className={`input-container ${formData.phone ? 'focused' : ''}`}>
-          <input
-            type="tel"
-            name="phone"
-            className="input"
-            value={formData.phone}
-            onChange={handleChange}
-            required
-          />
-          <label>Phone</label>
-          <span>Phone</span>
-        </div>
+                                            {/* Email input */}
+                                            <div className={`input-container ${formData.email ? 'focused' : ''}`}>
+                                                <input
+                                                    type="email"
+                                                    name="email"
+                                                    className="input"
+                                                    value={formData.email}
+                                                    onChange={handleChange}
+                                                    required
+                                                />
+                                                <label>Email</label>
+                                                <span>Email</span>
+                                            </div>
 
-        {/* Message textarea */}
-        <div className={`input-container ${formData.message ? 'focused' : ''}`}>
-          <textarea
-            name="message"
-            className="input"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-          <label>Message</label>
-          <span>Message</span>
-        </div>
+                                            {/* Phone input */}
+                                            <div className={`input-container ${formData.phone ? 'focused' : ''}`}>
+                                                <input
+                                                    type="tel"
+                                                    name="phone"
+                                                    className="input"
+                                                    value={formData.phone}
+                                                    onChange={handleChange}
+                                                    required
+                                                />
+                                                <label>Phone</label>
+                                                <span>Phone</span>
+                                            </div>
 
-        <input type="submit" value="Submit" className="btn-submit" />
-      </form>
-    </div>
-    </Row>
-      </div>
-    </div>
-  </Modal.Body>
-</Modal>
+                                            {/* Message textarea */}
+                                            <div className={`input-container ${formData.message ? 'focused' : ''}`}>
+                                                <textarea
+                                                    name="message"
+                                                    className="input"
+                                                    value={formData.message}
+                                                    onChange={handleChange}
+                                                    required
+                                                ></textarea>
+                                                <label>Message</label>
+                                                <span>Message</span>
+                                            </div>
+
+                                            <input type="submit" value="Submit" className="btn-submit" />
+                                        </form>
+                                    </div>
+                                </Row>
+                            </div>
+                        </div>
+                    </Modal.Body>
+                </Modal>
                 <section className="location">
                     <div className="container">
                         <div className="location_title text-center">
@@ -190,15 +190,15 @@ function Footer() {
                                             </div>
                                         </div>
                                         <div className="col-lg-8 p-0">
-                                        <Link to={"https://maps.app.goo.gl/4HYCGEiryydf54xdA"}>
-                                        <div className="loaction_content">
-                                                <h5>CHANDIGARH</h5>
-                                                <p className="text-white mb-0">SCO-44, Sector 5
-                                                    Mansa Devi Complex, Panchkula, Haryana
-                                                </p>
-                                            </div>
-                                        </Link>
-                                          
+                                            <Link to={"https://maps.app.goo.gl/4HYCGEiryydf54xdA"}>
+                                                <div className="loaction_content">
+                                                    <h5>CHANDIGARH</h5>
+                                                    <p className="text-white mb-0">SCO-44, Sector 5
+                                                        Mansa Devi Complex, Panchkula, Haryana
+                                                    </p>
+                                                </div>
+                                            </Link>
+
                                         </div>
                                     </div>
                                 </div>
@@ -297,12 +297,12 @@ function Footer() {
                                         </li>
                                         <li>
                                             <Link to="https://x.com/asvayuktech">
-                                            <FaXTwitter />
+                                                <FaXTwitter />
                                             </Link>
                                         </li>
                                         <li>
                                             <Link to="https://in.pinterest.com/asvayuktech/">
-                                            <FaPinterestP />
+                                                <FaPinterestP />
                                             </Link>
                                         </li>
                                     </ul>
@@ -401,7 +401,7 @@ function Footer() {
                                                     <FaPhoneAlt />
                                                     <p className="text-white mb-0">
                                                         <Link to="tel:+91 94782 14592">+91 94782 14592</Link>
-                                                    
+
                                                     </p>
                                                 </span>
                                             </li>
@@ -410,6 +410,12 @@ function Footer() {
                                                     <FaEnvelope />
                                                     <p className="text-white mb-0"> info@asvayuktech.com </p>
                                                 </Link>
+                                            </li>
+                                            <li>
+                                                <a href="//www.dmca.com/Protection/Status.aspx?ID=06d48c27-faa9-4f11-b7e9-5e0e5ccc0c99" title="DMCA.com Protection Status" className="dmca-badge" target='_blank'>
+                                                    <img src="https://images.dmca.com/Badges/dmca_protected_sml_120o.png?ID=06d48c27-faa9-4f11-b7e9-5e0e5ccc0c99" alt="DMCA.com Protection Status" className='last_img_footer'/>
+                                                </a>
+
                                             </li>
                                         </ul>
                                     </div>
@@ -423,20 +429,20 @@ function Footer() {
                     <p className="mb-0 fw-medium">© Copyright 2024 - Asvayuk Technologies Private Limited.</p>
                 </section>
                 <div
-      className="whatsapp-icon-container"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
-      {hovered && <span className="chat-text">Chat with us</span>}
-      <a
-        href="https://wa.me/919478214592"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="whatsapp-icon"   
-      >
-        <FaWhatsapp size={40} />
-      </a>
-    </div>
+                    className="whatsapp-icon-container"
+                    onMouseEnter={() => setHovered(true)}
+                    onMouseLeave={() => setHovered(false)}
+                >
+                    {hovered && <span className="chat-text">Chat with us</span>}
+                    <a
+                        href="https://wa.me/919478214592"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="whatsapp-icon"
+                    >
+                        <FaWhatsapp size={40} />
+                    </a>
+                </div>
             </main>
         </>
     )

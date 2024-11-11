@@ -798,3 +798,17 @@ textarea.input {
   filter: invert(1) !important;
   --bs-btn-close-opacity: 1.5 !important;
 }
+
+
+.development_links li {
+  border-bottom: 1px solid #ccc;
+  padding-block: 15px;
+  color: #2cbe9a;
+}
+
+.development_links li a {
+  color: #000 !important;
+}
+.development_links li a:hover {
+  color: #2cbe9a !important;
+}

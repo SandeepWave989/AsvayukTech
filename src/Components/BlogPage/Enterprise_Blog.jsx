@@ -8,10 +8,16 @@ import { Link } from 'react-router-dom';
 import flag from '../../Images/flag.webp'
 import seo from "../../Images/seo_banner.png";
 import c4 from "../../Images/portal_banner.png";
+import Meta_Component from '../Meta_Component/Meta_Component';
 function Enterprise_Blog() {
     return (
         <>
             <main>
+
+            <Meta_Component
+                    title="Transform Your MLM Business with Asvayuk Technologies' Software Solutions."
+                    description="Streamline operations, enhance security, and scale your network marketing business with custom MLM software from Asvayuk Technologies."
+                    canonical="https://asvayuktech.com//blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali" />
 
                 <section className="blog_cads">
                     <Container>

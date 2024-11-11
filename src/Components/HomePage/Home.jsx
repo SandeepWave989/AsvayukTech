@@ -78,11 +78,11 @@ function Home() {
 
     return (
         <>
-        <Meta_Component 
-        title="Asvayuk Technologies: Top Web Development & Digital Marketing Solutions"
-        description="Asvayuk Technologies offers expert web development, digital marketing, and blockchain solutions. Established in 2013, we provide innovative services to elevate your business. Contact us!"
-         canonical="https://asvayuktech.com/"
-        />
+            <Meta_Component
+                title="Asvayuk Technologies | Top Web Development & Digital Marketing Solutions"
+                description="Asvayuk Technologies offers expert web development, digital marketing, and blockchain solutions. Established in 2013, we provide innovative services to elevate your business. Contact us!"
+                canonical="https://asvayuktech.com/"
+            />
             <main>
                 {/* <!--Banner --> */}
                 <section className="banner p-0 p-lg-5">
@@ -91,9 +91,8 @@ function Home() {
                             <div className="col-lg-6">
                                 <div className="banner_textInfo pe-0 pe-lg-5 pe-md-5">
                                     <h1>Design Development Marketing</h1>
-
-                                    <p className="py-3">Asvayuk Technologies seamlessly combines innovative web design, advanced technology solutions, and strategic digital marketing to enhance your business's online presence and drive growth.</p>
-                                    <BannerButton btnTitle='Free Consultation'/>
+                                    <h2 className="py-3" style={{ fontSize: '16px', color: '#494949', fontWeight: '500', lineHeight: '1.5rem' }}>Asvayuk Technologies seamlessly combines innovative web design, advanced technology solutions, and strategic digital marketing to enhance your business's online presence and drive growth.</h2>
+                                    <BannerButton btnTitle='Free Consultation' />
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -515,8 +514,8 @@ function Home() {
                 <section className="Empowering py-4 py-lg-0 py-md-0">
                     <div className="container">
                         <div className="Empowering_title text-center pb-2 pb-md-5">
-                                <h1 className="fw-semibold">Fueling Your Growth with Customized Solutions
-                                </h1>
+                            <h1 className="fw-semibold">Fueling Your Growth with Customized Solutions
+                            </h1>
                         </div>
                         <div className="row pt-0 pt-lg-3 pt-md-3">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
@@ -524,13 +523,13 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/ui-ux-design"><h5>UI/UX Design<MdNavigateNext /></h5></Link>
+                                                <Link to="/ui-ux-design"><h5>UI/UX Design<MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">We at Asvayuk Technologies design seamless interfaces and captivating user experiences with meticulous attention to detail, enhancing your digital presence and user engagement.</p>
                                             </div>
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions1} alt="" className="img-fluid"/>
+                                                <img src={Solutions1} alt="" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -542,11 +541,11 @@ function Home() {
 
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/website-development"> <h5>Web Development <MdNavigateNext /></h5></Link>
+                                                <Link to="/website-development"> <h5>Web Development <MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">Our meticulous web development suite, from responsive
                                                     design to secure eCommerce and cutting-edge PWAs, empowers your brand with
                                                     future-proof solutions.</p>
-                                     
+
                                             </div>
                                         </div>
                                         <div className="col-4">
@@ -564,11 +563,11 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/mobile-app-development"><h5>Mobile App Development <MdNavigateNext /></h5></Link>
+                                                <Link to="/mobile-app-development"><h5>Mobile App Development <MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">Leveraging our extensive experience to transform your
                                                     vision into a user-centric mobile application that drives conversions and
                                                     brand loyalty.</p>
-                                 
+
                                             </div>
                                         </div>
                                         <div className="col-4">
@@ -584,7 +583,7 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/search-engine-optimization"><h5>Search Engine Optimization<MdNavigateNext /></h5></Link>
+                                                <Link to="/search-engine-optimization"><h5>Search Engine Optimization<MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">A strategic blend of SEO techniques to increase
                                                     website traffic, boost conversions, and solidify brand authority.</p>
                                             </div>
@@ -604,7 +603,7 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/ecommerce-development"><h5>eCommerce Solutions<MdNavigateNext /></h5></Link>
+                                                <Link to="/ecommerce-development"><h5>eCommerce Solutions<MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">Empower your brand with an intuitive and secure
                                                     eCommerce platform that amplifies sales, ensuring a seamless shopping
                                                     experience for your customers.</p>
@@ -623,7 +622,7 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                            <Link to="/enterprise-portal"><h5>Enterprise Portal Development <MdNavigateNext /></h5></Link>
+                                                <Link to="/enterprise-portal"><h5>Enterprise Portal Development <MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">Asvayuk Technologies offers feature-rich enterprise portal development solutions that integrate seamlessly with existing applications and data sources to streamline workflows and boost productivity.</p>
                                             </div>
                                         </div>

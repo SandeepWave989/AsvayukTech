@@ -5,11 +5,11 @@ import "swiper/css/pagination";
 import c3 from "../../Images/shopi.png";
 import c4 from "../../Images/portal_banner.png";
 import seo from "../../Images/seo_banner.png";
-import mlm from "../../Images/seo_banner.png";
+import mlm from "../../Images/mlm.png";
 import smart from "../../Images/seo_banner.png";
 import crypto from "../../Images/seo_banner.png";
 import cryptoEx from "../../Images/seo_banner.png";
-import BlockChainI from "../../Images/seo_banner.png";
+import BlockChainI from "../../Images/BlockchainI.png";
 import crm from "../../Images/seo_banner.png";
 import { Col, Container, Row } from "react-bootstrap";
 import CardBlog from "./CardBlog";
@@ -77,7 +77,7 @@ function Blog() {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={mlm} time=' 11 Nov 2024' blogTitle='MLM Software Developer in Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={mlm} time=' 11 Nov 2024' blogTitle='MLM Software Developer in Chandigarh, Panchkula, Mohali' blogPara="Asvayuk Technologies takes pride in developing highly advanced MLM software development for your business to operate streamlined operations. " CommentNum='0' viwer='285' urlSingleBlog='/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
@@ -97,7 +97,7 @@ function Blog() {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={BlockChainI} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={BlockChainI} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Blockchain technology has indeed been revolutionizing the way various industries function worldwide. As the world accelerates and changes." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
