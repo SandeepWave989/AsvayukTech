@@ -1,0 +1,1014 @@
+.banner-en {
+    background-color: var(--mainlight);
+}
+
+.below-banner {
+    background-color: #dcfdf4;
+    padding-block: 50px;
+}
+
+.heroBtn-en:hover {
+    border: 1px solid var(--main);
+    background-color: var(--light);
+}
+
+.banner_textInfo-en h1 {
+    color: var(--dark);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+.digital-ex {
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.cards-section {
+    background-color: var(--mainlight);
+    padding-block: 30px;
+}
+
+.customer-ex h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+.digi-cards {
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+.choice-section {
+    background-color: #dcfdf4;
+    padding-block: 50px;
+}
+
+.choice h2 {
+    color: var(--dark);
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.b2b-left h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.b2b-main {
+    gap: 10rem;
+}
+
+.check-para i {
+    background-color: var(--mainlight);
+    color: var(--maindark);
+    padding: 4px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+
+.tabs-section {
+    padding-block: 60px;
+    background-color: var(--mainlight);
+}
+
+.secure h2 {
+    color: var(--light);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.common-right h5,
+.common-right p,
+.secure p {
+    color: var(--light);
+}
+
+.common-left {
+    position: relative;
+}
+
+.common-left::before {
+    content: '';
+    position: absolute;
+    bottom: -43px;
+    left: 50%;
+    background-color: var(--light);
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+.secure-scalable {
+    background: radial-gradient(circle, rgba(36, 159, 129, 1) -300%, rgba(0, 0, 0, 1) 100%);
+    padding-block: 60px;
+}
+
+.supercharge-section {
+    background-color: var(--mainlight);
+    padding-block: 60px;
+}
+
+.choice ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+
+
+/* -------------------------------------- */
+/* ------ Mobile App Development -------- */
+/* -------------------------------------- */
+
+.tool-heading h2 {
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.tool-img img {
+    width: 500px;
+    height: 500px;
+}
+
+.saas-technology {
+    padding-block: 60px;
+    background-color: #e3fbf5;
+}
+
+.saas-technology-heading h2 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 49px;
+}
+
+.saas_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saas-tools-img {
+    border: 1px solid transparent;
+    height: 150px;
+    width: 150px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 150px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.saas-tools-img img{
+    height: 120px;
+}
+
+.saas-tools-img:hover {
+    border: 1px solid var(--main);
+    background-color: #fff;
+}
+
+.work-images p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.low-code-sec-tool {
+    background-color: var(--mainlight);
+    padding-block: 60px;
+}
+
+
+
+.woocomerce {
+    background-color: var(--dark);
+    padding-block: 60px;
+    overflow: visible;
+}
+
+.woocomerce-heading h2 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+}
+
+.woocomerce-imgs-left {
+    bottom: -6.9rem;
+    left: 27rem;
+    position: fixed;
+}
+
+.woocomerce-imgs-right {
+    bottom: -6.9rem;
+    right: 26rem;
+    position: fixed;
+}
+
+.woocomerce-buttons {
+    margin-top: 6rem;
+}
+
+.woocomerce-buttons a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #249f81;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #22987b;
+    border-radius: 5px 5px 5px 5px;
+    padding: 25px 50px 25px 50px;
+    color: var(--light);
+}
+
+.woocomerce-buttons a:last-child {
+    padding: 25px 77px 25px 77px;
+}
+
+
+/* --------------------------------------- */
+/* ------- PERFORMACE MARKETING PAGE ----- */
+/* --------------------------------------- */
+
+.performance_card1 {
+    background-color: var(--mainlight);
+    padding-block: 30px;
+}
+
+.peformance_section_top-heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: start;
+}
+
+.perTitle h2{
+    font-size: 41px ;
+    line-height: 52px;
+}
+
+.peformance_section_top-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.peformance_card1_right-sec {
+    background: url('../../Images/12.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.performance_card2 {
+    background-color: #e3fbf5;
+    padding-block: 60px;
+}
+
+.peformance_card2_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.peformance_card2_heading p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.performance_card2_inner-sec_card {
+    background-color: #FFFFFF;
+    padding: 30px 15px 30px 15px;
+    border-radius: 12px;
+    margin: -4px;
+    min-height: 235px;
+    height: 100%;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+.card_box_img_heading h3 {
+    color: #2E2E2E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.car_box_img img {
+    width: 60px;
+    height: 60px;
+}
+
+.card_img-box-wrapper+p {
+    color: #494949;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.performance_card3 {
+    background-color: #e3fbf5;
+    padding: 70px 0px;
+}
+
+.performace_card3_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.performace_card3_para p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.performace_card3_list li {
+    padding-bottom: 5px;
+}
+
+.performace_card3_button button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: var(--maindark);
+
+    border-radius: 5px 5px 5px 5px;
+    padding: 18px 52px 18px 52px;
+    color: var(--light);
+    border: none;
+}
+
+.performace_card3_img img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.social_media h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.social_media p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*  Website Development */
+.bannerImg{
+    background: url('../../Images/12.png');
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    background-position: center;
+}
+.woocomerce-buttons a{
+    color: var(--light) !important;
+}
+
+/* Performance */
+
+.performance_card1 {
+    background-color: var(--mainlight);
+    padding-block: 30px;
+}
+
+.peformance_section_top-heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: start;
+}
+
+.perTitle h2{
+    font-size: 41px ;
+    line-height: 52px;
+}
+
+.peformance_section_top-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.peformance_card1_right-sec {
+    background: url('../../Images/12.png');
+    background-repeat: no-repeat;
+    background-size: content;
+    background-position: center;
+}
+.peformance_card1_right-sec img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    width: 550px;
+}
+.performance_card2 {
+    background-color: #e3fbf5;
+    padding-block: 60px;
+}
+
+.peformance_card2_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.peformance_card2_heading p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.performance_card2_inner-sec_card {
+    background-color: #FFFFFF;
+    padding: 30px 15px 30px 15px;
+    border-radius: 12px;
+    margin: -4px;
+    min-height: 235px;
+    height: 100%;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+.card_box_img_heading h3 {
+    color: #2E2E2E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.car_box_img img {
+    width: 60px;
+    height: 60px;
+}
+
+.card_img-box-wrapper+p {
+    color: #494949;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.performance_card3 {
+    background-color: #e3fbf5;
+    padding: 70px 0px;
+}
+
+.performace_card3_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.performace_card3_para p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.performace_card3_list li {
+    padding-bottom: 5px;
+}
+
+.performace_card3_button button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: var(--maindark);
+
+    border-radius: 5px 5px 5px 5px;
+    padding: 18px 52px 18px 52px;
+    color: var(--light);
+    border: none;
+}
+
+.performace_card3_img img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.social_media h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.social_media p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fullCaseStudy_slider_logo img {
+    width: 180px;
+    height: auto;
+}
+
+.fullCaseStudy_url {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fullCaseStudy_img {
+    height: 520px;
+    width: 600px;
+}
+
+.fullCaseStudy_img img {
+    height: 100%;
+    width: 100%;
+}
+/* Low Code No Code */
+.bottom-logos img {
+    width: 180px;
+}
+.low-code h4{
+    font-size: 20px;
+}
+.lowCodeExp.tool-heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.banner_textInfo-en h1 {
+    color: var(--dark);
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.peformance_card2_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 53px;
+    font-weight: 600;
+}
+.peformance_card2_heading p {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Woocomerce */
+.blockchain-col-text p {
+    color: #494949;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 25px;
+}
+.experience_content h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg-section {
+    background-color: #f8f9fa;  
+}
+
+.inside-main {
+    padding: 2rem; 
+}
+
+.work-para {
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+.work-para p {
+    display: inline-block !important;
+    margin: 0 !important;
+}
+
+.curly-img {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+}
+
+.work-images {
+    text-align: center !important;
+}
+
+.work-images img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+    .work-images {
+        margin-bottom: 1rem !important; 
+    }
+}
+
+/* E-commerce */
+.e-commerce-sec{
+    background-color:  #E3FBF5;
+}
+.peformance_card2_heading h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 37px !important;
+    font-weight: 600;
+}
+.readTransform.bgdark {
+    background: radial-gradient(circle, rgba(36, 159, 129, 1) -300%, rgba(0, 0, 0, 1) 100%);
+}
+.readTransform h1 {
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.6px;
+}
+
+/* Web Services */
+.Webservice_cards{
+    padding-block: 10px;
+    background-color: #ECFFFA;
+}
+.Webservice_cards_Top_heading h2{
+        color: #000000;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+}
+.Webservice_cards_Top_heading p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+}
+.cards {
+    padding: 40px 20px 40px 20px;
+    background-color: transparent;
+    background-image: linear-gradient(312deg, #efe4ff 0%, #edf6ff 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #acacac;
+    border-radius: 5px 5px 5px 5px;
+}
+.card1_img img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.card-1 h3 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.card_right{
+        margin: 80px 0px 0px 0px;
+        background-color: transparent;
+        
+}
+.web-services-right-img img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Magento_Dev */
+.magento_service_card{
+    background-color: #E3FBF5;
+    padding: 65px 0px 75px 0px;
+}
+.card_heading h2 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+   
+}
+.peformance_card2_heading p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.magento_service_card_prop{
+    background-color: white;
+    border-radius: 50px;
+    padding-block: 2.8rem;
+    padding-inline:2rem ;
+    border: 1px solid #d7d7d7;
+    box-shadow: 2px 11px 19px 0px rgba(202.00000000000003, 201.00000000000003, 201.00000000000003, 0.5);
+    height: 100% !important;
+   
+}
+.magento_cards{
+    padding-inline: 5rem;
+}
+.magento_service_card_img img{
+    width: 60px;
+    height: 60px;
+}
+.magento_service_card_img_heading h3 {
+    color: #2E2E2E;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;  
+
+}
+
+/* Software_Dev */
+.software-sec {
+    background-color: var(--mainlight);
+    background-image: url(https://iamtechie.com/wp-content/uploads/2024/05/01.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-block: 60px;
+}
+.software-sec-heading h2 {
+    color: #000000;
+    /* font-family: "Poppins", Sans-serif; */
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 53px;
+}
+.software-sec-heading p{
+    color:  #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.software-sec-card1 {
+    background-color: #fff2d9;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+}
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+.software-names {
+    font-size: 18px !important;
+    text-align: center;
+}
+.software-sec-card2 {
+    background-color: #d8ecff;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+}
+
+/* Ar_Vr_Sec */
+
+.Ar-sec {
+    background-image: url("../../Images/Group-986.png");
+    background-position: top center;
+    padding: 65px 0px 75px 0px;
+    background-size: cover;
+}
+.Ar-sec-heading h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.Ar-sec-heading p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.Ar-sec-card1 {
+    background-color: transparent;
+    background-image: linear-gradient(271deg, #8500b4 0%, #100b25 100%);
+    border-radius: 10px;
+    padding: 18px;
+    height: 100%;
+}
+.Ar-sec-card2 {
+    background-color: transparent;
+    background-image: linear-gradient(271deg, #0071c5 0%, #031441 100%);
+    border-radius: 10px;
+    padding: 18px;
+    height: 100%;
+}
+.Ar-sec-card1 h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+}
+.Ar-sec-card1 img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.Ar-sec-card1 li {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+/* Social_Engine_Optimization */
+.search-engine {
+    background-color:#e3fbf5;
+    padding: 50px 0px;
+}
+.search-engine-heading h2 {
+    text-align: center;
+    color: #000000; 
+    font-size: 50px;
+    font-weight: 600;
+}
+.search-engine-imgs{
+    padding-inline: 10rem;
+}
+.search-engine-imgs img {
+  
+        width: 162px;
+        height: 75px;
+        object-fit: scale-down !important;
+}
+.search-engine-button button {
+    font-size: 21px;
+    font-weight: 500;
+    background-color: var(--main);
+    border-radius: 5px;
+    padding: 23px 50px;
+    text-decoration: inherit;
+    color: var(--light);
+    border: none;
+}
+.search-engine_last_row{
+margin-left: 7rem;
+margin-top: 3rem;  
+}
+.process_container{
+    max-width: 1400px !important;
+}
+.work-images p{
+    font-size: 12px !important;
+    line-height: 20px !important;
+}
+/* UI-UX */
+.design_process {
+    background-color: var(--mainlight);
+    padding: 50px 0px 70px;
+}
+.design_process-heading h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 71px;
+    text-align: center;
+}
+.design_process-card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(179, 172, 172, 0.5) -1px 3px 17px 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--mainlight);
+    padding: 37px 0px;
+    overflow: visible;
+}
+.design_process-card-right img {
+    height: auto;
+    max-width: 100%;
+    box-shadow: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0px;
+}
+.design_process-card-left img {
+    width: 110px;
+    height: 110px;
+}
+.design_process-card-left h3 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 23px;
+}
+.design_process-card-right {
+    padding: 0px 35px 0px 20px;
+}
+/* CaseStudy  Swiper */
+.swiper_card_1{
+    background-color: #f6f6f6;
+}
+.swiper_right_sec_1{
+    background-color:#ecede7;
+}
+.swiper_right_sec_1 img{
+    display: block;
+    width: 100%;
+    height: auto !important;
+    
+}
+.swiper_left_sec_logo img{
+    width: 100px;
+    height: auto;
+}
+.swiper_card_2{
+    background-color: #e1fbfc;
+}
+.swiper_right_sec_2{
+    background-color: #75d4da;
+}
+.swiper_card_3{
+    background-color: #eee4da;
+}
+.swiper_right_sec_3{
+    background-color: #ecede7;
+}
+.swiper_card_4{
+    background-color: #DADADA; 
+}
+.swiper_right_sec_4{
+    background-color: #1a181836;
+}
+.swiper_card_5{
+background-color:  #C3CAEB;
+}
+.swiper_right_sec_5{
+    background-color: #20063a7e;
+}
+.swiper_left_sec_logo_49 img{
+    height: 45px;
+   
+}
+
+  

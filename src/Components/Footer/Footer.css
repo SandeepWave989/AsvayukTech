@@ -1,0 +1,101 @@
+a{
+    text-decoration: none !important;
+    color :inherit !important;
+}
+
+.readTransform {
+    padding-block: 60px;
+    background-color: var(--maindark);
+    color: var(--light);
+}
+
+.location {
+    background: var(--dark);
+    background: radial-gradient(circle, rgba(36, 159, 129, 1) -300%, rgba(0, 0, 0, 1) 100%);
+    color: var(--light);
+    padding-block: 60px;
+    border-bottom: 1px solid var(--maindark);
+    position: relative;
+}
+
+.location_info {
+    padding: 25px 10px 25px 10px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.location_info:hover {
+    background-color: rgb(36, 159, 129, 0.5);
+
+}
+
+.loaction_content p {
+    font-size: 13px;
+}
+
+footer {
+    padding-block: 30px;
+    background-color: var(--dark);
+    color: var(--light);
+    position: relative;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img_logo {
+    width: 182px;
+    height: 52px;
+    margin-top: -6px;
+}
+
+.img_logo img {
+    width: 100%;
+}
+
+.footer_wrapper p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.footer_menu ul li{
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer_menu ul li a:hover {
+    color: var(--maindark) !important;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_menu ul.contact_info li p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer_menu .contact_info li a i {
+    font-size: 20px;
+}
+
+.footer_menu .contact_info li a:hover {
+    color: #fff !important;
+}
+.footer_left_sec p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.footer_menu_title h4 ,.footer_menu_title h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.label{
+    margin-top: 10px !important;
+}
+.submit-btn{
+    background-color: #249f81;
+    border: 0;
+}
