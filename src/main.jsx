@@ -74,7 +74,8 @@ const router = createBrowserRouter([
       { path: "/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali", element: <Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali /> },
       { path: "/blog/Crypto-Software-Developer-in-Chandigarh", element: <Crypto_Software_Developer_in_Chandigarh /> },
       { path: "/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali", element: <Crypto_Exchange_Developer /> },
-      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
+      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <BlockChain /> },
+      { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
     ],
   },
 ]);

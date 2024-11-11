@@ -10,6 +10,7 @@ import smart from "../../Images/seo_banner.png";
 import crypto from "../../Images/seo_banner.png";
 import cryptoEx from "../../Images/seo_banner.png";
 import BlockChainI from "../../Images/seo_banner.png";
+import crm from "../../Images/seo_banner.png";
 import { Col, Container, Row } from "react-bootstrap";
 import CardBlog from "./CardBlog";
 import { Link } from 'react-router-dom';
@@ -96,12 +97,12 @@ function Blog() {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={BlockChain} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={BlockChainI} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={BlockChain} time=' 11 Nov 2024' blogTitle='CRM Developer in Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={crm} time=' 11 Nov 2024' blogTitle='CRM Developer in Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                 </Row>
