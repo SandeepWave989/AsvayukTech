@@ -25,13 +25,13 @@ import Meta_Component from '../Meta_Component/Meta_Component'
 
 function CaseStudies() {
     return (
-        
+
         <>
-         <Meta_Component 
-        title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
-        description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
-         canonical="https://asvayuktech.com/case-studies"
-       />
+            <Meta_Component
+                title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
+                description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
+                canonical="https://asvayuktech.com/case-studies"
+            />
             <main>
 
                 <section className="caseStudies_main">
@@ -60,21 +60,21 @@ function CaseStudies() {
                 <section className="singleCaseplan py-5">
                     <Container>
 
-                        <CaseCard caseLogo={caseLogo1} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Australia' url='#' btnTitle='View Case Study' caseImg={caseStu} cardChild='card_child_1' cardImgClass='card_img' />
+                        <CaseCard caseLogo={caseLogo1} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Australia' url='/case-studies/quadlock' btnTitle='View Case Study' caseImg={caseStu} cardChild='card_child_1' cardImgClass='card_img' />
 
-                        <CaseCard caseLogo={caseLogo2} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Qatar' url='#' btnTitle='View Case Study' caseImg={caseStu2} cardChild='card_child_1 card_child_2' cardImgClass='card_img card_img2' />
+                        <CaseCard caseLogo={caseLogo2} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Qatar' url='/case-studies/moonlight' btnTitle='View Case Study' caseImg={caseStu2} cardChild='card_child_1 card_child_2' cardImgClass='card_img card_img2' />
 
-                        <CaseCard caseLogo={caseLogo3} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu3} cardChild='card_child_1 card_child_3' cardImgClass='card_img card_img3' />
+                        <CaseCard caseLogo={caseLogo3} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='/case-studies/themordernshop' btnTitle='View Case Study' caseImg={caseStu3} cardChild='card_child_1 card_child_3' cardImgClass='card_img card_img3' />
 
-                        <CaseCard caseLogo={caseLogo4} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu4} cardChild='card_child_1 card_child_4' cardImgClass='card_img card_img4' />
+                        <CaseCard caseLogo={caseLogo4} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='/case-studies/49thcoffee' btnTitle='View Case Study' caseImg={caseStu4} cardChild='card_child_1 card_child_4' cardImgClass='card_img card_img4' />
 
-                        <CaseCard caseLogo={caseLogo5} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='India' url='#' btnTitle='View Case Study' caseImg={caseStu5} cardChild='card_child_1 card_child_5' cardImgClass='card_img card_img5' />
+                        <CaseCard caseLogo={caseLogo5} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='India' url='/case-studies/krishnapearlsandjewellers' btnTitle='View Case Study' caseImg={caseStu5} cardChild='card_child_1 card_child_5' cardImgClass='card_img card_img5' />
 
-                        <CaseCard caseLogo={caseLogo6} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu1} cardChild='card_child_1 card_child_6' cardImgClass='card_img card_img6' />
+                        <CaseCard caseLogo={caseLogo6} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/spicetribe' btnTitle='View Case Study' caseImg={caseStu1} cardChild='card_child_1 card_child_6' cardImgClass='card_img card_img6' />
 
-                        <CaseCard caseLogo={caseLogo7} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu8} cardChild='card_child_1 card_child_7' cardImgClass='card_img card_img7' />
+                        <CaseCard caseLogo={caseLogo7} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/bookmytask' btnTitle='View Case Study' caseImg={caseStu8} cardChild='card_child_1 card_child_7' cardImgClass='card_img card_img7' />
 
-                        <CaseCard caseLogo={caseLogo8} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu6} cardChild='card_child_1 card_child_8' cardImgClass='card_img card_img8' />
+                        <CaseCard caseLogo={caseLogo8} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/kreshya' btnTitle='View Case Study' caseImg={caseStu6} cardChild='card_child_1 card_child_8' cardImgClass='card_img card_img8' />
 
                     </Container>
                 </section>

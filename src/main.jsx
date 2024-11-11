@@ -30,6 +30,7 @@ import UI_UX_Design from './Components/ServicesPage/UI_UX_Design.jsx';
 import SingleBlog from './Components/BlogPage/SingleBlog.jsx';
 import Shopify_Blog from './Components/BlogPage/Shopify_Blog.jsx';
 import Enterprise_Blog from './Components/BlogPage/Enterprise_Blog.jsx';
+import SingleCaseStudy from './Components/SingleCaseStudy.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,7 @@ const router = createBrowserRouter([
       { path: "/Shopify_Blog", element: <Shopify_Blog/> },
       { path: "/Enterprise_Blog", element: <Enterprise_Blog/> },
       { path: "/case-studies", element: <CaseStudies/> },
+      { path: "/case-studies/:singlecasestudy", element: <SingleCaseStudy/> },
       { path: "/contact-us", element: <Contact/> },
       { path: "/enterprise-portal", element: <EnterprisePortalDevelopment/> },
       { path: "/mobile-app-development", element: <MobileAppDevelopment/> },
