@@ -6,8 +6,8 @@ import c2 from "../../Images/2.webp";
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import flag from '../../Images/flag.webp'
-import seo from "../../Images/seo_banner.png";
-import c4 from "../../Images/portal_banner.png";
+import seo from "../../Images/seo_banner.webp";
+import c4 from "../../Images/portal_banner.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 function Enterprise_Blog() {
     return (
@@ -25,10 +25,10 @@ function Enterprise_Blog() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b> Unlocking Business Potential: The Importance of Enterprise Portal Development
                                         </b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c4} width="100%" />
                                     </div>

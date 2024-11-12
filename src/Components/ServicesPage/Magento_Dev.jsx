@@ -80,8 +80,7 @@ const Magento_Dev = () => {
                                 <Magento_service_card cardImg={service1} cardHeading="Design & Customization" cardPara="Create a compelling online presence with visually appealing websites crafted by Magento experts." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="App
-Development" cardPara="Develop high-performing Magento apps for seamless mobile commerce experiences." />
+                                <Magento_service_card cardImg={service2} cardHeading="App Development" cardPara="Develop high-performing Magento apps for seamless mobile commerce experiences." />
                             </Col>
                             <Col lg={4}>
                                 <Magento_service_card cardImg={service3} cardHeading="Theme & Extension Development" cardPara="Refine your Magento store with custom themes and extensions, offering ultimate flexibility." />
@@ -102,6 +101,8 @@ Development" cardPara="Develop high-performing Magento apps for seamless mobile 
 
                 </Container>
             </section>
+
+            
 
             <KeyPointSection keyHeading="Transform your eCommerce experience with our innovative solutions." keyPara="Explore the synergy of cutting-edge Magento solutions. Enhance your online store's performance with our expertise. Connect with us for a transformative journey in eCommerce." keyPoint1="Seamless Integration with Latest Technologies" keyPoint2="Tailored Solutions for Your Unique Needs" keyPoint3="Proven Track Record of Successful Implementations" keyPoint4="Dedicated Support and Maintenance Services" url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} />
             <Experience expTitle='Why Choose Us?' ExpPara='From sparking innovative ideas to transforming them into market-ready products, our extensive range of solutions is crafted to enhance your business value.' point1='Innovative Minds' pointPara1='Engineers with a visionary approach craft solutions beyond conventional boundaries.' point2='Craft Engaging Experiences' pointPara2='We engineer visually stunning interfaces that elevate user engagement.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Client-Centric Approach' pointPara4='Engineers with a visionary approach craft solutions beyond conventional boundaries.' />

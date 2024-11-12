@@ -2,19 +2,19 @@ import "./Blog.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper/modules'; import "swiper/css";
 import "swiper/css/pagination";
-import c3 from "../../Images/shopi.png";
-import c4 from "../../Images/portal_banner.png";
-import seo from "../../Images/seo_banner.png";
-import mlm from "../../Images/mlm.png";
-import smart from "../../Images/smart.png";
-import crypto from "../../Images/seo_banner.png";
-import cryptoEx from "../../Images/seo_banner.png";
-import BlockChainI from "../../Images/BlockchainI.png";
-import crm from "../../Images/seo_banner.png";
+import c3 from "../../Images/shopi.webp";
+import c4 from "../../Images/portal_banner.webp";
+import seo from "../../Images/seo_banner.webp";
+import mlm from "../../Images/mlm.webp";
+import smart from "../../Images/smart.webp";
+import crypto from "../../Images/crypto.webp";
+import cryptoEx from "../../Images/cryptoEx.webp";
+import BlockChainI from "../../Images/BlockchainI.webp";
 import { Col, Container, Row } from "react-bootstrap";
 import CardBlog from "./CardBlog";
 import { Link } from 'react-router-dom';
 import Meta_Component from "../Meta_Component/Meta_Component";
+import crm from "../../Images/seo_banner.webp";
 import BlockChain from "../ServicesPage/BlockChain";
 
 function Blog() {
@@ -82,22 +82,22 @@ function Blog() {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={smart} time=' 11 Nov 2024' blogTitle='Smart Contract Developer in Chandigarh, Panchkula, Mohali' blogPara="With technology revolutionizing industries today by taking agreements with smart contracts open up space for new possibilities." CommentNum='0' viwer='285' urlSingleBlog='/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={smart} time=' 12 Nov 2024' blogTitle='Smart Contract Developer in Chandigarh, Panchkula, Mohali' blogPara="With technology revolutionizing industries today by taking agreements with smart contracts open up space for new possibilities." CommentNum='0' viwer='285' urlSingleBlog='/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Crypto-Software-Developer-in-Chandigarh">
-                                            <CardBlog singleBlogImg={crypto} time=' 11 Nov 2024' blogTitle='Crypto Software Developer in Chandigarh' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Software-Developer-in-Chandigarh' />
+                                            <CardBlog singleBlogImg={crypto} time='11 Nov 2024' blogTitle='Crypto Software Developer in Chandigarh' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Software-Developer-in-Chandigarh' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali">
-                                            <CardBlog singleBlogImg={cryptoEx} time=' 11 Nov 2024' blogTitle='Crypto Exchange Developer in Chandigarh, Zirakpur, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali' />
+                                            <CardBlog singleBlogImg={cryptoEx} time=' 12 Nov 2024' blogTitle='Crypto Exchange Developer in Chandigarh, Zirakpur, Mohali' blogPara="As the cryptocurrency market expands, the demand for safe and efficient - and most importantly, easy-to-use - crypto exchanges grows." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali">
-                                            <CardBlog singleBlogImg={BlockChainI} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Blockchain technology has indeed been revolutionizing the way various industries function worldwide. As the world accelerates and changes." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
+                                            <CardBlog singleBlogImg={BlockChainI} time=' 12 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Blockchain technology has indeed been revolutionizing the way various industries function worldwide. As the world accelerates and changes." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
                                         </Link>
                                     </Col>
                                     {/* <Col lg={6} md={6} sm={12} xs={12} className="pb-4">

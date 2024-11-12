@@ -4,11 +4,11 @@ import './About.css'
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import right_logo from '../../Images/right-logo-2.webp'
 import about_bg from '../../Images/abtbg.webp'
-import circle_1 from '../../Images/1.png'
-import circle_2 from '../../Images/2.png'
-import core_image from '../../Images/3.png'
+import circle_1 from '../../Images/circle_1.png'
+import circle_2 from '../../Images/circle_2.png'
+import core_image from '../../Images/circle_3.png'
 import Group_415 from '../../Images/Group-415 (1).webp'
-import raacomfavicon from '../../Images/5.png' //later change
+import raacomfavicon from '../../Images/circle_5.png' //later change
 import iso_img from '../../Images/iso-img.webp'
 import shopify_img from '../../Images/shopify-img.webp'
 import hubspot_img from '../../Images/hubspot-img.webp'

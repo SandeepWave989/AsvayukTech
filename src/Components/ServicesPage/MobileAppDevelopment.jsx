@@ -14,10 +14,10 @@ import c16 from '../../Images/c16.webp';
 import Group105518 from '../../Images/mad.webp'
 import KeyPointSection from './KeyPointSection';
 import Experience from '../HomePage/Experience';
-import html from '../../Images/fltr.png';
+import html from '../../Images/fltr.webp';
 import react from '../../Images/react.webp';
-import objective from '../../Images/android.png';
-import kotlin from '../../Images/java.png';
+import objective from '../../Images/android.webp';
+import kotlin from '../../Images/java.webp';
 import swift from '../../Images/swift.webp';
 import container from '../../Images/container.webp';
 import planning from '../../Images/planning.webp';

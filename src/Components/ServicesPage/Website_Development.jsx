@@ -18,7 +18,7 @@ import html from '../../Images/html.webp';
 import react from '../../Images/react.webp';
 import objective from '../../Images/objective.webp';
 import kotlin from '../../Images/kotlin.webp';
-import swift from '../../Images/js2.png';
+import swift from '../../Images/js2.webp';
 import container from '../../Images/container.webp'
 import planning from '../../Images/planning.webp'
 import pen from '../../Images/pen.webp'

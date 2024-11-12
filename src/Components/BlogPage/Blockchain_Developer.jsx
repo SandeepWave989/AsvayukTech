@@ -1,7 +1,7 @@
 import './SingleBlog.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import c3 from "../../Images/BlockchainI.png";
+import c3 from "../../Images/BlockchainI.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 
 function Blockchain_Developer() {
@@ -18,9 +18,9 @@ function Blockchain_Developer() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b>Blockchain Development at Asvayuk Technologies: The Future of Technology Has a New Address</b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c3} width="100%" />
                                     </div>

@@ -1,7 +1,7 @@
 import './SingleBlog.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import c3 from "../../Images/shopi.png";
+import c3 from "../../Images/shopi.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 
 function CRMDdeveloper() {
@@ -19,9 +19,9 @@ function CRMDdeveloper() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b>CRM Developer in Chandigarh, Panchkula, Mohali</b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c3} width="100%" />
                                     </div>

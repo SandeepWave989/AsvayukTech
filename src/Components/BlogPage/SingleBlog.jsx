@@ -7,7 +7,7 @@ import c3 from "../../Images/3.webp";
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import flag from '../../Images/flag.webp'
-import seo from "../../Images/seo_banner.png";
+import seo from "../../Images/seo_banner.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 function SingleBlog() {
     return (
@@ -25,10 +25,10 @@ function SingleBlog() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b> The Secret Source of SEO: Unleashing Success with Vipasha Ghai Approach
                                         </b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={seo} width="100%" />
                                     </div>

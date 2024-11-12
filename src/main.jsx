@@ -36,6 +36,12 @@ import Crypto_Exchange_Developer from './Components/BlogPage/Crypto_Exchange_Dev
 import Blockchain_Developer from './Components/BlogPage/Blockchain_Developer.jsx';
 import CRMDdeveloper from './Components/BlogPage/CRMDdeveloper.jsx';
 import MLM_Software from './Components/ProductPages/MLM_Software.jsx';
+import AI_chatBot from './Components/ProductPages/AI_chatBot.jsx';
+import CRM_ERP from './Components/ProductPages/CRM_ERP.jsx';
+import DAP_DAO from './Components/ProductPages/DAP_DAO.jsx';
+import CryptoWallet from './Components/ProductPages/CryptoWallet.jsx';
+import TradingBot from './Components/ProductPages/TradingBot.jsx';
+import JobPortal from './Components/ProductPages/JobPortal.jsx';
 
 
 const router = createBrowserRouter([
@@ -79,6 +85,12 @@ const router = createBrowserRouter([
       { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
       // Product Pages
       { path: "/mlm-software", element: <MLM_Software /> },
+      { path: "/ai-chatbot", element: <AI_chatBot /> },
+      { path: "/crm-erp", element: <CRM_ERP /> },
+      { path: "/dap-dao", element: <DAP_DAO /> },
+      { path: "/crypto-wallet", element: <CryptoWallet /> },
+      { path: "/trading-bot", element: <TradingBot /> },
+      { path: "/job-portal", element: <JobPortal /> },
     ],
   },
 ]);

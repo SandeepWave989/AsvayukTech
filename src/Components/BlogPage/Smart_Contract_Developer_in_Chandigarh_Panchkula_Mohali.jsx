@@ -1,7 +1,7 @@
 import './SingleBlog.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import c3 from "../../Images/smart.png"; // Update image path accordingly
+import c3 from "../../Images/smart.webp"; // Update image path accordingly
 import Meta_Component from '../Meta_Component/Meta_Component';
 
 function Smart_Contract_Development_at_Asvayuk_Technologies() {
@@ -19,9 +19,9 @@ function Smart_Contract_Development_at_Asvayuk_Technologies() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b>Smart Contract Development at Asvayuk Technologies: Secure, Automated Solutions Pioneer</b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c3} width="100%" />
                                     </div>

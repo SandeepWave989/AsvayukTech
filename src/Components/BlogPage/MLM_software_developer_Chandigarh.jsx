@@ -1,7 +1,7 @@
 import './SingleBlog.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import c3 from "../../Images/mlm.png";
+import c3 from "../../Images/mlm.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 
 function MLM_software_developer_Chandigarh() {
@@ -18,9 +18,9 @@ function MLM_software_developer_Chandigarh() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b>MLM Software Development at Asvayuk Technologies: Power Your Network Marketing Business</b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c3} width="100%" />
                                     </div>

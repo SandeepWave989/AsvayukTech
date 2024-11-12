@@ -6,8 +6,8 @@ import c2 from "../../Images/2.webp";
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import flag from '../../Images/flag.webp'
-import seo from "../../Images/seo_banner.png";
-import c3 from "../../Images/shopi.png";
+import seo from "../../Images/seo_banner.webp";
+import c3 from "../../Images/shopi.webp";
 import Meta_Component from '../Meta_Component/Meta_Component';
 function Shopify_Blog() {
     return (
@@ -24,10 +24,10 @@ function Shopify_Blog() {
 
                             <Col lg={8} className='col-12'>
                                 <div className="blog_card">
-                                    <h2>
+                                    <h1>
                                         <b> Unlocking the potential of Shopify Development at Asvayuk Technologies
                                         </b>
-                                    </h2>
+                                    </h1>
                                     <div className="blog_card_img mt-4">
                                         <img src={c3} width="100%" />
                                     </div>
