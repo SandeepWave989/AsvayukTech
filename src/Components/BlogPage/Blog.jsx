@@ -1,30 +1,30 @@
 import "./Blog.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules';import "swiper/css";
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules'; import "swiper/css";
 import "swiper/css/pagination";
-import c1 from "../../Images/1.webp";
-import c2 from "../../Images/2.webp";
 import c3 from "../../Images/shopi.png";
 import c4 from "../../Images/portal_banner.png";
-import c5 from "../../Images/5.webp";
-import c6 from "../../Images/6.webp";
-import c7 from "../../Images/7.webp";
-import c8 from "../../Images/8.webp";
 import seo from "../../Images/seo_banner.png";
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+import mlm from "../../Images/mlm.png";
+import smart from "../../Images/smart.png";
+import crypto from "../../Images/seo_banner.png";
+import cryptoEx from "../../Images/seo_banner.png";
+import BlockChainI from "../../Images/BlockchainI.png";
+import crm from "../../Images/seo_banner.png";
 import { Col, Container, Row } from "react-bootstrap";
 import CardBlog from "./CardBlog";
+import { Link } from 'react-router-dom';
 import Meta_Component from "../Meta_Component/Meta_Component";
+import BlockChain from "../ServicesPage/BlockChain";
 
 function Blog() {
     return (
         <>
- <Meta_Component 
-        title=" Blogs | Insights on Web Development & Digital Marketing"
-        description=" Explore the Asvayuk Technologies  blog for expert insights on web development, digital marketing, and tech trends. Stay updated with our latest articles, tips, and industry news."
-        canonical="https://asvayuktech.com/blog"
-       />
+            <Meta_Component
+                title=" Blogs | Insights on Web Development & Digital Marketing"
+                description=" Explore the Asvayuk Technologies  blog for expert insights on web development, digital marketing, and tech trends. Stay updated with our latest articles, tips, and industry news."
+                canonical="https://asvayuktech.com/blog"
+            />
             <main>
 
                 <section className="blog-banner">
@@ -42,31 +42,16 @@ function Blog() {
                                 <img src={seo} className="img-fluid" />
                             </div>
                         </SwiperSlide>
-                         <SwiperSlide>
+                        <SwiperSlide>
                             <div className="blogBannerImg">
                                 <img src={c3} className="img-fluid" />
                             </div>
                         </SwiperSlide>
-                       <SwiperSlide>
+                        <SwiperSlide>
                             <div className="blogBannerImg">
                                 <img src={c4} className="img-fluid" />
                             </div>
                         </SwiperSlide>
-                       {/*  <SwiperSlide>
-                            <div className="blogBannerImg">
-                                <img src={c4} className="img-fluid" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="blogBannerImg">
-                                <img src={c5} className="img-fluid" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="blogBannerImg">
-                                <img src={c6} className="img-fluid" />
-                            </div>
-                        </SwiperSlide> */}
                     </Swiper>
                 </section>
 
@@ -76,26 +61,49 @@ function Blog() {
                             <Col lg={8} md={8} sm={12} xs={12}>
                                 <Row>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={seo} time=' 6 Nov 2024' blogTitle='Boost Your Business with SEO: Key Tactics to Drive Organic Traffic' blogPara='Your guide to SEO success—explore top tips for ranking higher, increasing traffic, and optimizing your digital strategy.' CommentNum='0' viwer='285' urlSingleBlog='/SingleBlog'/>
+                                        <Link to="/blog/Boost-Your-Business-with-SEO-Key-Tactics-to-Drive-Organic-Traffic">
+                                            <CardBlog singleBlogImg={seo} time=' 6 Nov 2024' blogTitle='Boost Your Business with SEO: Key Tactics to Drive Organic Traffic' blogPara='Your guide to SEO success—explore top tips for ranking higher, increasing traffic, and optimizing your digital strategy.' CommentNum='0' viwer='285' urlSingleBlog='/blog/Boost-Your-Business-with-SEO-Key-Tactics-to-Drive-Organic-Traffic' />
+                                        </Link>
                                     </Col>
-                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c3} time=' 7 Nov 2024' blogTitle='Revolutionize Your Business with Asvayuks Shopify Development' blogPara='Custom Shopify solutions to grow your e-commerce business with expert setup, app development, and ongoing support.' CommentNum='0' viwer='285' urlSingleBlog='/Shopify_Blog'/>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Revolutionize-Your-Business-with-Asvayuks-Shopify-Development'">
+                                            <CardBlog singleBlogImg={c3} time=' 7 Nov 2024' blogTitle='Revolutionize Your Business with Asvayuks Shopify Development' blogPara='Custom Shopify solutions to grow your e-commerce business with expert setup, app development, and ongoing support.' CommentNum='0' viwer='285' urlSingleBlog='/blog/Revolutionize-Your-Business-with-Asvayuks-Shopify-Development' />
+                                        </Link>
                                     </Col>
-                                   <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c4} time=' 17 May, 2024' blogTitle='Enhance Efficiency with Custom Enterprise Portals' blogPara='Transform your business with Asvayuk Tech’s enterprise portals. Simplify processes, improve collaboration, and drive growth with a centralized solution tailored to your needs
-' CommentNum='0' viwer='285' urlSingleBlog='/Enterprise_Blog'/>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Enhance-Efficiency-with-Custom-Enterprise-Portals">
+                                            <CardBlog singleBlogImg={c4} time=' 17 May, 2024' blogTitle='Enhance Efficiency with Custom Enterprise Portals' blogPara='Transform your business with Asvayuk Tech’s enterprise portals. Simplify processes, improve collaboration, and drive growth with a centralized solution tailored to your needs' CommentNum='0' viwer='285' urlSingleBlog='/blog/Enhance-Efficiency-with-Custom-Enterprise-Portals' />
+                                        </Link>
+                                    </Col>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali">
+                                            <CardBlog singleBlogImg={mlm} time=' 11 Nov 2024' blogTitle='MLM Software Developer in Chandigarh, Panchkula, Mohali' blogPara="Asvayuk Technologies takes pride in developing highly advanced MLM software development for your business to operate streamlined operations. " CommentNum='0' viwer='285' urlSingleBlog='/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                        </Link>
+                                    </Col>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali">
+                                            <CardBlog singleBlogImg={smart} time=' 11 Nov 2024' blogTitle='Smart Contract Developer in Chandigarh, Panchkula, Mohali' blogPara="With technology revolutionizing industries today by taking agreements with smart contracts open up space for new possibilities." CommentNum='0' viwer='285' urlSingleBlog='/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                        </Link>
+                                    </Col>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Crypto-Software-Developer-in-Chandigarh">
+                                            <CardBlog singleBlogImg={crypto} time=' 11 Nov 2024' blogTitle='Crypto Software Developer in Chandigarh' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Software-Developer-in-Chandigarh' />
+                                        </Link>
+                                    </Col>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali">
+                                            <CardBlog singleBlogImg={cryptoEx} time=' 11 Nov 2024' blogTitle='Crypto Exchange Developer in Chandigarh, Zirakpur, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali' />
+                                        </Link>
+                                    </Col>
+                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                        <Link to="/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali">
+                                            <CardBlog singleBlogImg={BlockChainI} time=' 11 Nov 2024' blogTitle='Blockchain Developer in Zirakpur, Chandigarh, Panchkula, Mohali' blogPara="Blockchain technology has indeed been revolutionizing the way various industries function worldwide. As the world accelerates and changes." CommentNum='0' viwer='285' urlSingleBlog='/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali' />
+                                        </Link>
                                     </Col>
                                     {/* <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c6} time=' 17 May, 2024' blogTitle='Asvayuk Technologies  Wins Liferay DXP Implementation' blogPara='Asvayuk Technologies  Wins Liferay DXP Implementation Project for Dubai CommerCity' CommentNum='0' viwer='285' urlSingleBlog='#'/>
-                                    </Col>
-                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c7} time=' 17 May, 2024' blogTitle='Asvayuk Technologies  Wins Liferay DXP Implementation' blogPara='Asvayuk Technologies  Wins Liferay DXP Implementation Project for Dubai CommerCity' CommentNum='0' viwer='285' urlSingleBlog='#'/>
-                                    </Col>
-                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c8} time=' 17 May, 2024' blogTitle='Asvayuk Technologies  Wins Liferay DXP Implementation' blogPara='Asvayuk Technologies  Wins Liferay DXP Implementation Project for Dubai CommerCity' CommentNum='0' viwer='285' urlSingleBlog='#'/>
-                                    </Col>
-                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <CardBlog singleBlogImg={c8} time=' 17 May, 2024' blogTitle='Asvayuk Technologies  Wins Liferay DXP Implementation' blogPara='Asvayuk Technologies  Wins Liferay DXP Implementation Project for Dubai CommerCity' CommentNum='0' viwer='285' urlSingleBlog='#'/>
+                                        <Link to="/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali">
+                                            <CardBlog singleBlogImg={crm} time=' 11 Nov 2024' blogTitle='CRM Developer in Chandigarh, Panchkula, Mohali' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali' />
+                                        </Link>
                                     </Col> */}
                                 </Row>
                             </Col>
@@ -143,66 +151,10 @@ function Blog() {
                                 </div>
                             </Col>
                         </Row>
-                        {/* <div>
-                            <nav aria-label="..." className="border-0 pagination-scroll">
-                                <ul className="pagination gap-2">
-                                    <li className="page-item active" aria-current="page">
-                                        <Link className="page-link" to="#">
-                                            1
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            2
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            3
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            4
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            5
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            6
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            7
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            ...
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            12
-                                        </Link>
-                                    </li>
-                                    <li className="page-item">
-                                        <Link className="page-link" to="#">
-                                            Next <FaArrowRight />
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div> */}
                     </Container>
-                </section>
+                </section >
 
-            </main>
+            </main >
 
         </>
     )

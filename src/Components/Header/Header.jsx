@@ -214,7 +214,6 @@ export default function Header() {
                                 </Col>
                               </Row>
                             </Tab.Pane>
-                            {/* More Tab Panes... */}
                           </Tab.Content>
                         </div>
                       </Tab.Container>
@@ -318,7 +317,7 @@ export default function Header() {
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Layer 1/Layer 2 BlockChain</Link></li>
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>CRM/ERP</Link></li>
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Trading Bot</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>MLM Software</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/mlm-software' onClick={toggleMenu}>MLM Software</Link></li>
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>School Management</Link></li>
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Hospital Management</Link></li>
                                 <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>DAP/DAO</Link></li>

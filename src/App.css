@@ -798,3 +798,38 @@ textarea.input {
   filter: invert(1) !important;
   --bs-btn-close-opacity: 1.5 !important;
 }
+
+
+.development_links li {
+  border-bottom: 1px solid #ccc;
+  padding-block: 15px;
+  color: #2cbe9a;
+}
+
+.development_links li a {
+  color: #000 !important;
+}
+.development_links li a:hover {
+  color: #2cbe9a !important;
+}
+
+.modal-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the overlay is above other content */
+}
+
+.modal-popup1 {
+  position: relative;
+  /* background: #fff; */
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1010; /* Make sure modal content is above the overlay */
+}

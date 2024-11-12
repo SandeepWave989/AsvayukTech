@@ -1,10 +1,9 @@
-import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App.jsx';
 import ReactDOM from 'react-dom/client';
 import Home from './Components/HomePage/Home.jsx';
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from './Components/ContactPage/Contact.jsx';
 import CaseStudies from './Components/CaseStudiesPage/CaseStudies.jsx';
 import Blog from './Components/BlogPage/Blog.jsx';
@@ -30,6 +29,13 @@ import UI_UX_Design from './Components/ServicesPage/UI_UX_Design.jsx';
 import SingleBlog from './Components/BlogPage/SingleBlog.jsx';
 import Shopify_Blog from './Components/BlogPage/Shopify_Blog.jsx';
 import Enterprise_Blog from './Components/BlogPage/Enterprise_Blog.jsx';
+import MLM_software_developer_Chandigarh from './Components/BlogPage/MLM_software_developer_Chandigarh.jsx';
+import Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali from './Components/BlogPage/Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali.jsx';
+import Crypto_Software_Developer_in_Chandigarh from './Components/BlogPage/Crypto_Software_Developer_in_Chandigarh.jxs.jsx';
+import Crypto_Exchange_Developer from './Components/BlogPage/Crypto_Exchange_Developer.jsx';
+import Blockchain_Developer from './Components/BlogPage/Blockchain_Developer.jsx';
+import CRMDdeveloper from './Components/BlogPage/CRMDdeveloper.jsx';
+import MLM_Software from './Components/ProductPages/MLM_Software.jsx';
 
 
 const router = createBrowserRouter([
@@ -38,31 +44,41 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/about-us", element: <About/> },
-      { path: "/blog", element: <Blog/> },
-      { path: "/SingleBlog", element: <SingleBlog/> },
-      { path: "/Shopify_Blog", element: <Shopify_Blog/> },
-      { path: "/Enterprise_Blog", element: <Enterprise_Blog/> },
-      { path: "/case-studies", element: <CaseStudies/> },
-      { path: "/contact-us", element: <Contact/> },
-      { path: "/enterprise-portal", element: <EnterprisePortalDevelopment/> },
-      { path: "/mobile-app-development", element: <MobileAppDevelopment/> },
-      { path: "/website-development", element: <Website_Development/> },
-      { path: "/performance-marketing", element: <Performance/> },
-      { path: "/lowcode-nocode-app", element: <LowCode_NoCode/> },
-      { path: "/woocomerce-development", element: <Woocomerce/> },
-      { path: "/ecommerce-development", element: <Ecommerce/> },
-      { path: "/blockchain-development", element: <BlockChain/> },
-      { path: "/magento-development", element: <Magento_Dev/> },
-      { path: "/react-native-development", element: <React_Native/> },
-      { path: "/saas-development", element: <Saas_Dev/> },
-      { path: "/shopify-development", element: <Shopify_Dev/> },
-      { path: "/software-development", element: <Software_Dev/> },
-      { path: "/laravel-development", element: <Laravel_Dev/> },
-      { path: "/ar-vr-development", element: <Ar_Vr_Dev/> },
-      { path: "/social-media-marketing", element: <Social_Media_Marketing/> },
-      { path: "/search-engine-optimization", element: <Search_Engine_Opti/> },
-      { path: "/ui-ux-design", element: <UI_UX_Design/> },
+      { path: "/about-us", element: <About /> },
+      { path: "/contact-us", element: <Contact /> },
+      // Case Studies - Our Services
+      { path: "/case-studies", element: <CaseStudies /> },
+      { path: "/enterprise-portal", element: <EnterprisePortalDevelopment /> },
+      { path: "/mobile-app-development", element: <MobileAppDevelopment /> },
+      { path: "/website-development", element: <Website_Development /> },
+      { path: "/performance-marketing", element: <Performance /> },
+      { path: "/lowcode-nocode-app", element: <LowCode_NoCode /> },
+      { path: "/woocomerce-development", element: <Woocomerce /> },
+      { path: "/ecommerce-development", element: <Ecommerce /> },
+      { path: "/blockchain-development", element: <BlockChain /> },
+      { path: "/magento-development", element: <Magento_Dev /> },
+      { path: "/react-native-development", element: <React_Native /> },
+      { path: "/saas-development", element: <Saas_Dev /> },
+      { path: "/shopify-development", element: <Shopify_Dev /> },
+      { path: "/software-development", element: <Software_Dev /> },
+      { path: "/laravel-development", element: <Laravel_Dev /> },
+      { path: "/ar-vr-development", element: <Ar_Vr_Dev /> },
+      { path: "/social-media-marketing", element: <Social_Media_Marketing /> },
+      { path: "/search-engine-optimization", element: <Search_Engine_Opti /> },
+      { path: "/ui-ux-design", element: <UI_UX_Design /> },
+      // Blog and Single Blogs
+      { path: "/blog", element: <Blog /> },
+      { path: "/blog/Boost-Your-Business-with-SEO-Key-Tactics-to-Drive-Organic-Traffic", element: <SingleBlog /> },
+      { path: "/blog/Revolutionize-Your-Business-with-Asvayuks-Shopify-Development", element: <Shopify_Blog /> },
+      { path: "/blog/Enhance-Efficiency-with-Custom-Enterprise-Portals", element: <Enterprise_Blog /> },
+      { path: "/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali", element: <MLM_software_developer_Chandigarh /> },
+      { path: "/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali", element: <Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali /> },
+      { path: "/blog/Crypto-Software-Developer-in-Chandigarh", element: <Crypto_Software_Developer_in_Chandigarh /> },
+      { path: "/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali", element: <Crypto_Exchange_Developer /> },
+      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <Blockchain_Developer /> },
+      { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
+      // Product Pages
+      { path: "/mlm-software", element: <MLM_Software /> },
     ],
   },
 ]);
@@ -70,14 +86,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-    <RouterProvider RouterProvider router={router}>
-      <App />
-    </RouterProvider>
- 
-  
-  // <React.StrictMode>
-  //   <RouterProvider RouterProvider router={router}>
-  //     <App />
-  //   </RouterProvider>
-  // </React.StrictMode>
+  <RouterProvider RouterProvider router={router}>
+    <App />
+  </RouterProvider>
+
 )
