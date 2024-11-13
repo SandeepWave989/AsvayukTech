@@ -8,7 +8,7 @@ import Logo from '../../Images/logo.webp';
 import { FaAngleDown, FaAngleRight, FaRegCircleDot } from 'react-icons/fa6';
 import { Accordion, Col, Row, Tab } from 'react-bootstrap';
 import { HiOutlineBars3 } from 'react-icons/hi2';
-import { IoClose } from 'react-icons/io5';
+import { IoCall, IoClose } from 'react-icons/io5';
 import { useState } from 'react';
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
 
   // Function to close mega menu on link click
-  const handleMegaMenuLinkClick = () => { 
+  const handleMegaMenuLinkClick = () => {
     setIsMegaMenuOpen(false);
   };
   const [isVisible, setIsVisible] = useState(false);
@@ -114,7 +114,7 @@ export default function Header() {
                               <Row>
                                 <h5 className='pb-3 fw-semibold'>Technology</h5>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/enterprise-portal' onClick={handleMegaMenuLinkClick}>Enterprise Portal Development</Link>
                                     <Link to='/lowcode-nocode-app' onClick={handleMegaMenuLinkClick}>lowCode/noCode-app</Link>
                                     <Link to='/blockchain-development' onClick={handleMegaMenuLinkClick}>Blockchain Development</Link>
@@ -123,7 +123,7 @@ export default function Header() {
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/mobile-app-development' onClick={handleMegaMenuLinkClick}>Mobile App Development</Link>
                                     <Link to='/woocomerce-development' onClick={handleMegaMenuLinkClick}>WooCommerce Development</Link>
                                     <Link to='/magento-development' onClick={handleMegaMenuLinkClick}>Magento Development</Link>
@@ -132,7 +132,7 @@ export default function Header() {
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/website-development' onClick={handleMegaMenuLinkClick}>Website Development</Link>
                                     <Link to='/ecommerce-development' onClick={handleMegaMenuLinkClick}>E-commerce Development</Link>
                                     <Link to='/react-native-development' onClick={handleMegaMenuLinkClick}>React Native Development</Link>
@@ -146,17 +146,17 @@ export default function Header() {
                               <Row>
                                 <h5 className='pb-3 fw-semibold'>Marketing</h5>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/performance-marketing' onClick={handleMegaMenuLinkClick}>Performance Marketing</Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/social-media-marketing' onClick={handleMegaMenuLinkClick}>Social Media Marketing</Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/search-engine-optimization' onClick={handleMegaMenuLinkClick}>Search Engine Optimization</Link>
                                   </div>
                                 </Col>
@@ -166,17 +166,17 @@ export default function Header() {
                               <Row>
                                 <h5 className='pb-3 fw-semibold'>Design</h5>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='/ui-ux-design' onClick={handleMegaMenuLinkClick}>UI UX Design</Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='#'></Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
                                     <Link to='#'></Link>
                                   </div>
                                 </Col>
@@ -186,30 +186,30 @@ export default function Header() {
                               <Row>
                                 <h5 className='pb-3 fw-semibold'>Products</h5>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>AI Chat Bot</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Crypto Wallet</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Game (24 Game)</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Crypto Exchange</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Layer 1/Layer 2 BlockChain</Link>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
+                                    <Link to='/ai-chatbot-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>AI Chat Bot</Link>
+                                    <Link to='/crypto-wallet-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>Crypto Wallet</Link>
+                                    <Link to='/game24-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>Game (24 Game)</Link>
+                                    <Link to='/crypto-exchnage-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>Crypto Exchange</Link>
+                                    <Link to='/layer1-layer2-blockchain-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>Layer 1/Layer 2 BlockChain</Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>CRM/ERP</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Trading Bot</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>MLM Software</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>School Management</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Hospital Management</Link>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
+                                    <Link to='/crm-erp-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>CRM/ERP</Link>
+                                    <Link to='/trading-bot-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>Trading Bot</Link>
+                                    <Link to='/mlm-software-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>MLM Software</Link>
+                                    <Link to='/school-management-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>School Management</Link>
+                                    <Link to='/hospital-management-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>Hospital Management</Link>
                                   </div>
                                 </Col>
                                 <Col lg={4}>
-                                  <div className='tab-menus d-flex flex-column gap-4'>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>DAP/DAO</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Job Portal</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Uber/Ola Clone</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Zomato/Urbanup Clone</Link>
-                                    <Link to='#' onClick={handleMegaMenuLinkClick}>Multivendor Ecommerce</Link>
+                                  <div className='tab-menus tab_menu_top d-flex flex-column gap-4'>
+                                    <Link to='/dap-dao-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>DAP/DAO</Link>
+                                    <Link to='/job-portal-chandigarh-panchkula' onClick={handleMegaMenuLinkClick}>Job Portal</Link>
+                                    <Link to='/uber-ola-clone-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>Uber/Ola Clone</Link>
+                                    <Link to='/zomato-urbanup-clone-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>Zomato/Urbanup Clone</Link>
+                                    <Link to='/multi-vendor-ecommerce-panchkula-chandigarh' onClick={handleMegaMenuLinkClick}>Multivendor Ecommerce</Link>
                                   </div>
                                 </Col>
                               </Row>
@@ -235,8 +235,17 @@ export default function Header() {
               <Navbar.Brand as={Link} to="/">
                 <img src={Logo} alt="Logo" className="logo" />
               </Navbar.Brand>
-              <div className='toggle-icon' onClick={toggleMenu}>
-                <HiOutlineBars3 />
+              <div className='d-flex gap-2 align-items-center'>
+                <a href="tel:+94782 14592" aria-label="Call Now for Consultation">
+                  <div className="content">
+                    <div className="pulse">
+                      <IoCall />
+                    </div>
+                  </div>
+                </a>
+                <div className='toggle-icon' onClick={toggleMenu}>
+                  <HiOutlineBars3 />
+                </div>
               </div>
             </div>
             {isMobileMenuOpen && (
@@ -310,21 +319,22 @@ export default function Header() {
                           <Accordion.Body>
                             <div>
                               <ul className='list-unstyled d-flex flex-column'>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>AI Chat Bot</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Crypto Wallet</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Game (24 Game)</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Crypto Exchange</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Layer 1/Layer 2 BlockChain</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>CRM/ERP</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Trading Bot</Link></li>
-                                <li className='py-2 border-bottom'><Link to='/mlm-software' onClick={toggleMenu}>MLM Software</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>School Management</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Hospital Management</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>DAP/DAO</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Job Portal</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Uber/Ola Clone</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Zomato/Urbanup Clone</Link></li>
-                                <li className='py-2 border-bottom'><Link to='#' onClick={toggleMenu}>Multivendor Ecommerce</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/ai-chatbot-chandigarh-panchkula' onClick={toggleMenu}>AI Chat Bot</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/crypto-wallet-chandigarh-panchkula' onClick={toggleMenu}>Crypto Wallet</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/game24-chandigarh-panchkula' onClick={toggleMenu}>Game (24 Game)</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/crypto-exchnage-chandigarh-panchkula' onClick={toggleMenu}>Crypto Exchange</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/layer1-layer2-blockchain-panchkula-chandigarh' onClick={toggleMenu}>Layer 1/Layer 2 BlockChain</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/crm-erp-chandigarh-panchkula' onClick={toggleMenu}>CRM/ERP</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/trading-bot-chandigarh-panchkula' onClick={toggleMenu}>Trading Bot</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/mlm-software-chandigarh-panchkula' onClick={toggleMenu}>MLM Software</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/school-management-panchkula-chandigarh' onClick={toggleMenu}>School Management</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/hospital-management-panchkula-chandigarh' onClick={toggleMenu}>Hospital Management</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/dap-dao-chandigarh-panchkula' onClick={toggleMenu}>DAP/DAO</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/job-portal-chandigarh-panchkula' onClick={toggleMenu}>Job Portal</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/uber-ola-clone-panchkula-chandigarh' onClick={toggleMenu}>Uber/Ola Clone</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/zomato-urbanup-clone-panchkula-chandigarh' onClick={toggleMenu}>Zomato/Urbanup Clone</Link></li>
+                                <li className='py-2 border-bottom'><Link to='/multi-vendor-ecommerce-panchkula-chandigarh' onClick={toggleMenu}>Multivendor Ecommerce</Link></li>
+
                               </ul>
                             </div>
                           </Accordion.Body>

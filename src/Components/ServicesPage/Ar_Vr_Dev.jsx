@@ -63,9 +63,9 @@ const Ar_Vr_Dev = () => {
             <section className="Ar-sec">
               <Container>
                    <Row>
-                        <div className="Ar-sec-heading text-center">
-                            <h2>Services We Offer</h2>
-                            <p className="py-3">
+                        <div className="Ar-sec-heading text-center text-dark">
+                            <h2 className=' text-dark'>Services We Offer</h2>
+                            <p className="py-3 text-dark">
                                 Explore our premier range of services designed to harness the power of
                                 augmented and virtual reality.
                             </p>

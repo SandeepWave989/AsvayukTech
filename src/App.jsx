@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-        <AutoPopupModal />
+        {/* <AutoPopupModal /> */}
         <Outlet />
       <Footer />
     </>

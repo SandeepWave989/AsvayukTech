@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import BannerButton from '../BannerBtn/BannerButton'
-import Ar_Vr from '../../Images/mlm_banner.webp'
+import Ar_Vr from '../../Images/game24.png'
 import Experience from '../HomePage/Experience'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
@@ -29,9 +29,9 @@ const MLM_Software = () => {
     return (
         <>
             <Meta_Component
-                title="MLM Software in Chandigarh Panchkula | Asvayuk Technologies"
-                description="Asvayuk offers advanced MLM Software development services in Chandigarh and Panchkula to optimize multi-level marketing strategies and achieve scalable growth. Custom MLM Solutions tailored to your business needs."
-                canonical="https://asvayuktech.com/mlm-software-chandigarh-panchkula"
+                title="24 Games with Asvayuk Technologies Panchkula Chandigarh | Game Development"
+                description="Asvayuk Technologies offers innovative and customized game development services in Panchkula and Chandigarh. We specialize in creating engaging 24 games to enhance user experience and business growth."
+                canonical="https://asvayuktech.com/24-games-panchkula-chandigarh"
             />
 
             <section className="banner-en">
@@ -42,18 +42,18 @@ const MLM_Software = () => {
                                 <Breadcrumb>
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
-                                    <Breadcrumb.Item active>MLM Software Chandigarh Panchkula</Breadcrumb.Item>
+                                    <Breadcrumb.Item active>24 Games with Asvayuk</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>MLM Software Development in Chandigarh Panchkula</h1>
+                                <h1>Game Development Solutions by Asvayuk Technologies in Panchkula Chandigarh</h1>
                                 <p className="py-3">
-                                    Asvayuk Technologies specializes in providing custom MLM software solutions in Chandigarh and Panchkula. We help businesses streamline commission tracking, downline management, and performance analytics to achieve optimal growth in the multi-level marketing industry.
+                                    Asvayuk Technologies specializes in game development services in Panchkula and Chandigarh, offering a range of innovative 24 games. Our solutions are designed to enhance user engagement and provide scalable solutions for businesses looking to integrate gaming elements into their strategy.
                                 </p>
                                 <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={Ar_Vr} alt="MLM Software Chandigarh Panchkula" className='w-100 h-100' />
+                                <img src={Ar_Vr} alt="Game Development Panchkula Chandigarh" className='w-100 h-100' />
                             </div>
                         </div>
                     </Row>
@@ -64,29 +64,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            DEDICATED DEVELOPERS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>FOR MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            EXCEPTIONAL GAME DEVELOPMENT SERVICES <span className="text-uppercase" style={{ color: '#2cbe9a' }}>IN PANCHKULA AND CHANDIGARH</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            <strong>Asvayuk Technologies</strong> is a premier MLM software development company located in Chandigarh, offering specialized solutions for businesses in Chandigarh and Panchkula. Our custom MLM software helps optimize your business with efficient downline management, enhanced commission systems, and real-time reports.
+                            <strong>Asvayuk Technologies</strong> is a leading game development company in Panchkula and Chandigarh. We specialize in developing 24 games that cater to diverse business needs, helping businesses improve engagement and reach new audiences with immersive gaming experiences.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM company registration">MLM Company Registration</a></li>
-                                <li><a href="#" title="Design: Business plans for MLM">MLM Business Plan Design</a></li>
-                                <li><a href="#" title="MLM Software Solutions">MLM Software Solutions</a></li>
-                                <li><a href="#" title="MLM Digital Marketing">MLM Digital Marketing</a></li>
-                                <li><a href="#" title="Promotions & Special Offers">Holiday Voucher</a></li>
+                                <li><a href="#" title="Game Development Company Chandigarh">Game Development Company</a></li>
+                                <li><a href="#" title="Custom Game Solutions Chandigarh">Custom Game Solutions</a></li>
+                                <li><a href="#" title="Mobile Game Development">Mobile Game Development</a></li>
+                                <li><a href="#" title="24 Games Development">24 Games Development</a></li>
+                                <li><a href="#" title="Game App Development Chandigarh">Game App Development</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="ISO Certification Services">ISO Certification</a></li>
-                                <li><a href="#" title="E-commerce portal integration">E-commerce Portal</a></li>
-                                <li><a href="#" title="Multimedia Solutions">Promotional Video</a></li>
-                                <li><a href="#" title="Business Planning">Business Plan PPT/PDF</a></li>
-                                <li><a href="#" title="Personal Care Products for MLM">Personal Care Products</a></li>
+                                <li><a href="#" title="Game Monetization Solutions">Game Monetization Solutions</a></li>
+                                <li><a href="#" title="AR VR Game Development">AR VR Game Development</a></li>
+                                <li><a href="#" title="Cross-Platform Game Development">Cross-Platform Game Development</a></li>
+                                <li><a href="#" title="Game UI/UX Design Chandigarh">Game UI/UX Design</a></li>
+                                <li><a href="#" title="Interactive Games for Businesses">Interactive Games for Businesses</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,28 +96,28 @@ const MLM_Software = () => {
             <section className='magento_service_card'>
                 <Container>
                     <div className="card_heading text-center">
-                        <h2>MLM Software Solutions We Offer in Chandigarh Panchkula</h2>
-                        <p>Our expert team specializes in building customized MLM software solutions tailored to meet the specific needs of network marketing businesses in Chandigarh Panchkula. We enhance your business operations with automation, advanced commission systems, and powerful reporting tools.</p>
+                        <h2>Our 24 Games Development Services in Panchkula and Chandigarh</h2>
+                        <p>Asvayuk Technologies offers a wide variety of custom 24 games designed to engage users and enhance business growth. From mobile games to cross-platform development, our services are tailored to meet the needs of businesses in Panchkula and Chandigarh.</p>
                     </div>
-                    <div className='magento_cards'>
+                    <div className='game_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} cardHeading="MLM System Customization" cardPara="Develop a tailor-made MLM software system that fits your business needs, providing scalability and flexibility." />
+                                <Magento_service_card cardImg={service1} cardHeading="Custom 24 Games Development" cardPara="We specialize in developing custom 24 games tailored to your business needs, enhancing customer interaction and loyalty." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="MLM Mobile App Development" cardPara="Create a mobile app for your MLM business, offering easy access to your network and real-time updates." />
+                                <Magento_service_card cardImg={service2} cardHeading="Mobile Game Development" cardPara="Our mobile game development services focus on creating engaging experiences for users across multiple platforms." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service3} cardHeading="Advanced MLM Commission Systems" cardPara="Implement complex commission structures for your MLM business, ensuring seamless compensation management." />
+                                <Magento_service_card cardImg={service3} cardHeading="Cross-Platform Game Development" cardPara="Develop cross-platform games that work seamlessly across all devices, ensuring maximum reach and engagement." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service4} cardHeading="MLM Software Integration" cardPara="Integrate your MLM system with eCommerce platforms and CRM tools to streamline operations and improve workflow." />
+                                <Magento_service_card cardImg={service4} cardHeading="AR/VR Game Development" cardPara="Integrate AR and VR technologies to create immersive gaming experiences that captivate your audience." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service5} cardHeading="MLM Software Security" cardPara="Ensure the security of your MLM platform with robust encryption, fraud detection, and secure data management features." />
+                                <Magento_service_card cardImg={service5} cardHeading="Game Monetization" cardPara="Explore different monetization strategies for your games, including in-app purchases and ads, to maximize revenue." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service6} cardHeading="Real-Time Analytics for MLM" cardPara="Gain valuable insights into your MLM network’s performance with real-time analytics and custom reports." />
+                                <Magento_service_card cardImg={service6} cardHeading="Game UI/UX Design" cardPara="We offer expert UI/UX design services to create visually appealing and user-friendly gaming interfaces." />
                             </Col>
                         </Row>
                     </div>
@@ -128,29 +128,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            BENEFITS OF CUSTOM <span className="text-uppercase" style={{ color: '#2cbe9a' }}>MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            ADVANTAGES OF CUSTOM GAME DEVELOPMENT <span className="text-uppercase" style={{ color: '#2cbe9a' }}>WITH ASVAYUK TECHNOLOGIES</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            By choosing custom MLM software, your business in Chandigarh Panchkula can leverage automation to manage your MLM network more effectively. Our MLM software is designed to offer flexibility, scalability, and enhanced functionality, allowing your business to thrive in the competitive MLM market.
+                            Our custom 24 games offer multiple benefits for businesses in Panchkula and Chandigarh, including enhanced customer engagement, brand visibility, and innovative marketing strategies. Trust Asvayuk Technologies for all your game development needs.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM System Customization">Custom MLM System Development</a></li>
-                                <li><a href="#" title="MLM Business Automation">MLM Business Automation</a></li>
-                                <li><a href="#" title="Multi-Tier Commission Management">Multi-Tier Commission Management</a></li>
-                                <li><a href="#" title="Advanced Reporting for MLM">Advanced MLM Reporting</a></li>
-                                <li><a href="#" title="Secure MLM Software">MLM Software Security Features</a></li>
+                                <li><a href="#" title="Engaging Game Development">Engaging Game Development</a></li>
+                                <li><a href="#" title="Cross-Platform Solutions">Cross-Platform Solutions</a></li>
+                                <li><a href="#" title="Increased User Retention">Increased User Retention</a></li>
+                                <li><a href="#" title="Custom Gaming Features">Custom Gaming Features</a></li>
+                                <li><a href="#" title="Brand Building with Games">Brand Building with Games</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM Data Analytics">MLM Data Analytics</a></li>
-                                <li><a href="#" title="Mobile-Friendly MLM Software">Mobile-Friendly MLM Software</a></li>
-                                <li><a href="#" title="Integrated MLM System">MLM System Integration</a></li>
-                                <li><a href="#" title="MLM App Development">MLM App Development</a></li>
-                                <li><a href="#" title="Real-Time MLM Reports">Real-Time MLM Analytics</a></li>
+                                <li><a href="#" title="AR/VR Integration">AR/VR Integration</a></li>
+                                <li><a href="#" title="Monetization Features">Monetization Features</a></li>
+                                <li><a href="#" title="Advanced Game Analytics">Advanced Game Analytics</a></li>
+                                <li><a href="#" title="Custom Game Themes">Custom Game Themes</a></li>
+                                <li><a href="#" title="Mobile-Optimized Games">Mobile-Optimized Games</a></li>
                             </ul>
                         </div>
                     </div>
@@ -161,13 +161,13 @@ const MLM_Software = () => {
                 <div className="container">
                     <div className="row">
                         <div className="choice pb-5">
-                            <h2 className="fw-semibold">Supercharge Your MLM Business in Chandigarh Panchkula with Asvayuk Technologies' Custom MLM Software Solutions</h2>
-                            <p className="pt-2">In today's competitive market, leveraging advanced MLM software is crucial for business success. Asvayuk Technologies offers top-tier, customized MLM solutions designed to optimize your direct selling network, enhance commission management, and streamline downline operations.</p>
+                            <h2 className="fw-semibold">Supercharge Your Business with Custom 24 Games from Asvayuk Technologies in Panchkula Chandigarh</h2>
+                            <p className="pt-2">Leverage the power of custom 24 games to boost user engagement, enhance brand visibility, and increase revenue. Asvayuk Technologies offers the best game development services to help businesses succeed in the competitive market.</p>
                             <ul>
-                                <li><span className="fw-bold h6">Tailored MLM Solutions:</span> Asvayuk offers custom MLM software development designed specifically to fit your business model, whether it's binary, matrix, or unilevel structures.</li>
-                                <li><span className="fw-bold h6">Scalable & Flexible:</span> Our MLM software is built to grow with your business, allowing you to scale operations, add new features, and manage an expanding network effortlessly.</li>
-                                <li><span className="fw-bold h6">Advanced Commission Management:</span> We implement advanced features for accurate and transparent commission calculations, empowering your network with reliable and real-time compensation tracking.</li>
-                                <li><span className="fw-bold h6">Enhanced Security:</span> Security is paramount for Asvayuk Technologies. Our MLM software includes secure user authentication, data encryption, and fraud detection protocols to safeguard your network.</li>
+                                <li><span className="fw-bold h6">Tailored Game Solutions:</span> Our custom 24 game development solutions are designed specifically to fit your business model and marketing strategy.</li>
+                                <li><span className="fw-bold h6">Scalable and Flexible:</span> As your business grows, our 24 games solutions can scale to meet increased demands, offering a flexible approach to game development.</li>
+                                <li><span className="fw-bold h6">Enhanced User Engagement:</span> Our games are designed to maximize user engagement, providing interactive experiences that foster customer loyalty.</li>
+                                <li><span className="fw-bold h6">Robust Security:</span> Asvayuk Technologies ensures that all our game development projects include advanced security measures to protect user data and game integrity.</li>
                             </ul>
                         </div>
                     </div>
@@ -175,16 +175,18 @@ const MLM_Software = () => {
             </section>
 
             <Experience
-                expTitle='Why Choose Asvayuk for MLM Software in Chandigarh Panchkula?'
-                point1='Proven MLM Expertise'
-                pointPara1='Boost your business with our expert MLM software solutions in Chandigarh and Panchkula, designed to streamline operations and drive growth.'
-                point2='Commitment to Quality'
-                pointPara2='Our quality assurance team ensures secure, high-performance MLM software tailored to the needs of Chandigarh Panchkula businesses.'
-                point3='Client-Centric Approach'
-                pointPara3='We tailor our MLM software solutions to align with your unique requirements in the Chandigarh Panchkula area.'
-                point4='Transparent Communication'
-                pointPara4='We keep you informed throughout the MLM software development process, ensuring clarity at every step for our clients in Chandigarh Panchkula.'
+                expTitle='Why Choose Asvayuk for Game Development in Panchkula Chandigarh?'
+                point1='Expertise in Game Development'
+                pointPara1='Our team specializes in creating custom 24 games for businesses in Panchkula and Chandigarh.'
+                point2='Focus on Quality & Innovation'
+                pointPara2='We ensure top-quality, innovative solutions for every game development project.'
+                point3='Tailored Solutions'
+                pointPara3='We deliver custom gaming solutions to meet the unique needs of businesses in the region.'
+                point4='Clear Communication'
+                pointPara4='We maintain transparent communication with clients throughout the development process.'
             />
+
+
 
             <section className="caseStuides">
                 <Container>
@@ -409,55 +411,57 @@ const MLM_Software = () => {
             <section className="Industries">
                 <div className="container">
                     <div>
-                        <h1 className="fw-semibold">Industries We Serve with Asvayuk MLM Software</h1>
-                        <p>At Asvayuk, we cater to a wide range of industries, offering customized MLM software solutions that enhance business efficiency, drive growth, and streamline operations for MLM-based networks.</p>
+                        <h1 className="fw-semibold">24 Games We Offer</h1>
+                        <p>At Asvayuk, we offer a diverse collection of 24 exciting games that cater to all kinds of gamers. Our games are designed to challenge, entertain, and provide immersive experiences for players of all skill levels.</p>
                     </div>
                     <div className="row pt-3">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Direct Selling</h3>
+                                <h5 className="mb-0">Strategy Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">eCommerce</h3>
+                                <h5 className="mb-0">Puzzle Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Healthtech</h3>
+                                <h5 className="mb-0">Action Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Blockchain</h3>
+                                <h5 className="mb-0">Adventure Games</h5>
                             </div>
                         </div>
                     </div>
                     <div className="row pt-0 pt-lg-3 pt-md-3">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Fintech</h3>
+                                <h5 className="mb-0">Sports Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Traveltech</h3>
+                                <h5 className="mb-0">Racing Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Realtech</h3>
+                                <h5 className="mb-0">Multiplayer Games</h5>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
                             <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Edtech</h3>
+                                <h5 className="mb-0">Casual Games</h5>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
         </>
     )

@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import BannerButton from '../BannerBtn/BannerButton'
-import Ar_Vr from '../../Images/mlm_banner.webp'
+import Ar_Vr from '../../Images/ZomatoUrbanUp.png'
 import Experience from '../HomePage/Experience'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
@@ -25,13 +25,13 @@ import service5 from '../../Images/services5.webp'
 import service6 from '../../Images/services6.webp'
 
 
-const MLM_Software = () => {
+const Zomato_Urbanup_Clone = () => {
     return (
         <>
             <Meta_Component
-                title="MLM Software in Chandigarh Panchkula | Asvayuk Technologies"
-                description="Asvayuk offers advanced MLM Software development services in Chandigarh and Panchkula to optimize multi-level marketing strategies and achieve scalable growth. Custom MLM Solutions tailored to your business needs."
-                canonical="https://asvayuktech.com/mlm-software-chandigarh-panchkula"
+                title="Zomato/UrbanUp Clone App Development by Asvayuk Technologies Panchkula Chandigarh"
+                description="Asvayuk Technologies offers cutting-edge Zomato/UrbanUp clone app development services in Panchkula & Chandigarh, providing scalable, customizable on-demand food delivery solutions for businesses."
+                canonical="https://asvayuktech.com/zomato-urbanup-clone-panchkula-chandigarh"
             />
 
             <section className="banner-en">
@@ -42,18 +42,18 @@ const MLM_Software = () => {
                                 <Breadcrumb>
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
-                                    <Breadcrumb.Item active>MLM Software Chandigarh Panchkula</Breadcrumb.Item>
+                                    <Breadcrumb.Item active>Zomato/UrbanUp Clone</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>MLM Software Development in Chandigarh Panchkula</h1>
+                                <h1>Zomato/UrbanUp Clone App Development Services in Panchkula & Chandigarh</h1>
                                 <p className="py-3">
-                                    Asvayuk Technologies specializes in providing custom MLM software solutions in Chandigarh and Panchkula. We help businesses streamline commission tracking, downline management, and performance analytics to achieve optimal growth in the multi-level marketing industry.
+                                    Asvayuk Technologies specializes in developing Zomato/UrbanUp clone apps in Panchkula & Chandigarh. Our scalable and feature-packed on-demand food delivery app solutions cater to the ever-growing needs of businesses in the food and logistics sector.
                                 </p>
                                 <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={Ar_Vr} alt="MLM Software Chandigarh Panchkula" className='w-100 h-100' />
+                                <img src={Ar_Vr} alt="Zomato UrbanUp Clone App Development Panchkula Chandigarh" className='w-100 h-100' />
                             </div>
                         </div>
                     </Row>
@@ -64,29 +64,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            DEDICATED DEVELOPERS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>FOR MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            LEADING FOOD DELIVERY APP DEVELOPMENT SERVICES <span className="text-uppercase" style={{ color: '#2cbe9a' }}>IN PANCHKULA & CHANDIGARH</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            <strong>Asvayuk Technologies</strong> is a premier MLM software development company located in Chandigarh, offering specialized solutions for businesses in Chandigarh and Panchkula. Our custom MLM software helps optimize your business with efficient downline management, enhanced commission systems, and real-time reports.
+                            Asvayuk Technologies provides reliable Zomato/UrbanUp clone app development services in Panchkula & Chandigarh, designed for businesses looking to create a top-tier food delivery platform with robust functionality and seamless user experience.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM company registration">MLM Company Registration</a></li>
-                                <li><a href="#" title="Design: Business plans for MLM">MLM Business Plan Design</a></li>
-                                <li><a href="#" title="MLM Software Solutions">MLM Software Solutions</a></li>
-                                <li><a href="#" title="MLM Digital Marketing">MLM Digital Marketing</a></li>
-                                <li><a href="#" title="Promotions & Special Offers">Holiday Voucher</a></li>
+                                <li><a href="#" title="Zomato Clone App Development Chandigarh">Zomato Clone App Development</a></li>
+                                <li><a href="#" title="UrbanUp Clone Solutions Chandigarh">UrbanUp Clone Solutions</a></li>
+                                <li><a href="#" title="On-Demand Food Delivery App Development">On-Demand Food Delivery App Development</a></li>
+                                <li><a href="#" title="Restaurant Ordering App Solutions">Restaurant Ordering App Solutions</a></li>
+                                <li><a href="#" title="Food Delivery Platform Development">Food Delivery Platform Development</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="ISO Certification Services">ISO Certification</a></li>
-                                <li><a href="#" title="E-commerce portal integration">E-commerce Portal</a></li>
-                                <li><a href="#" title="Multimedia Solutions">Promotional Video</a></li>
-                                <li><a href="#" title="Business Planning">Business Plan PPT/PDF</a></li>
-                                <li><a href="#" title="Personal Care Products for MLM">Personal Care Products</a></li>
+                                <li><a href="#" title="Food Delivery App Monetization">Food Delivery App Monetization</a></li>
+                                <li><a href="#" title="Cross-Platform App Development">Cross-Platform App Development</a></li>
+                                <li><a href="#" title="Food Delivery App UI/UX Design">Food Delivery App UI/UX Design</a></li>
+                                <li><a href="#" title="Real-Time Order Tracking Features">Real-Time Order Tracking Features</a></li>
+                                <li><a href="#" title="Admin Panel for Food Delivery Apps">Admin Panel for Food Delivery Apps</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,28 +96,28 @@ const MLM_Software = () => {
             <section className='magento_service_card'>
                 <Container>
                     <div className="card_heading text-center">
-                        <h2>MLM Software Solutions We Offer in Chandigarh Panchkula</h2>
-                        <p>Our expert team specializes in building customized MLM software solutions tailored to meet the specific needs of network marketing businesses in Chandigarh Panchkula. We enhance your business operations with automation, advanced commission systems, and powerful reporting tools.</p>
+                        <h2>Our Zomato/UrbanUp Clone App Development Services in Panchkula & Chandigarh</h2>
+                        <p>At Asvayuk Technologies, we offer a broad spectrum of services to help you launch a successful food delivery app. From feature-rich integrations to seamless mobile app development, we tailor each solution to meet your business requirements.</p>
                     </div>
-                    <div className='magento_cards'>
+                    <div className='game_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} cardHeading="MLM System Customization" cardPara="Develop a tailor-made MLM software system that fits your business needs, providing scalability and flexibility." />
+                                <Magento_service_card cardImg={service1} cardHeading="Custom Zomato/UrbanUp Clone Development" cardPara="We provide custom solutions for Zomato/UrbanUp clone apps, tailored to your unique business needs." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="MLM Mobile App Development" cardPara="Create a mobile app for your MLM business, offering easy access to your network and real-time updates." />
+                                <Magento_service_card cardImg={service2} cardHeading="Mobile Food Delivery App Development" cardPara="Our mobile app development services ensure an intuitive and engaging food delivery experience for users." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service3} cardHeading="Advanced MLM Commission Systems" cardPara="Implement complex commission structures for your MLM business, ensuring seamless compensation management." />
+                                <Magento_service_card cardImg={service3} cardHeading="Cross-Platform Solutions" cardPara="We offer cross-platform solutions to ensure your food delivery app performs seamlessly on both iOS and Android." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service4} cardHeading="MLM Software Integration" cardPara="Integrate your MLM system with eCommerce platforms and CRM tools to streamline operations and improve workflow." />
+                                <Magento_service_card cardImg={service4} cardHeading="Comprehensive Admin Panel Integration" cardPara="Our admin panel integration allows easy management of restaurants, orders, and delivery agents." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service5} cardHeading="MLM Software Security" cardPara="Ensure the security of your MLM platform with robust encryption, fraud detection, and secure data management features." />
+                                <Magento_service_card cardImg={service5} cardHeading="Real-Time Order Tracking" cardPara="Track orders in real-time with advanced tracking and notification features for both customers and delivery agents." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service6} cardHeading="Real-Time Analytics for MLM" cardPara="Gain valuable insights into your MLM network’s performance with real-time analytics and custom reports." />
+                                <Magento_service_card cardImg={service6} cardHeading="On-Demand Food Delivery Features" cardPara="We provide on-demand features for food delivery services, enhancing user experience with efficient order placement and delivery." />
                             </Col>
                         </Row>
                     </div>
@@ -128,29 +128,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            BENEFITS OF CUSTOM <span className="text-uppercase" style={{ color: '#2cbe9a' }}>MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            BENEFITS OF ASVAYUK'S CUSTOM FOOD DELIVERY SOLUTIONS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>IN Panchkula & Chandigarh</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            By choosing custom MLM software, your business in Chandigarh Panchkula can leverage automation to manage your MLM network more effectively. Our MLM software is designed to offer flexibility, scalability, and enhanced functionality, allowing your business to thrive in the competitive MLM market.
+                            Asvayuk Technologies offers businesses in Panchkula & Chandigarh the most efficient, scalable, and user-friendly food delivery app solutions, helping businesses grow with enhanced customer loyalty, better engagement, and improved market presence.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM System Customization">Custom MLM System Development</a></li>
-                                <li><a href="#" title="MLM Business Automation">MLM Business Automation</a></li>
-                                <li><a href="#" title="Multi-Tier Commission Management">Multi-Tier Commission Management</a></li>
-                                <li><a href="#" title="Advanced Reporting for MLM">Advanced MLM Reporting</a></li>
-                                <li><a href="#" title="Secure MLM Software">MLM Software Security Features</a></li>
+                                <li><a href="#" title="Engaging Food Delivery Apps">Engaging Food Delivery Apps</a></li>
+                                <li><a href="#" title="Custom App Features">Custom App Features</a></li>
+                                <li><a href="#" title="Multi-Device Compatibility">Multi-Device Compatibility</a></li>
+                                <li><a href="#" title="User-Friendly Interfaces">User-Friendly Interfaces</a></li>
+                                <li><a href="#" title="Scalable Solutions">Scalable Solutions</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM Data Analytics">MLM Data Analytics</a></li>
-                                <li><a href="#" title="Mobile-Friendly MLM Software">Mobile-Friendly MLM Software</a></li>
-                                <li><a href="#" title="Integrated MLM System">MLM System Integration</a></li>
-                                <li><a href="#" title="MLM App Development">MLM App Development</a></li>
-                                <li><a href="#" title="Real-Time MLM Reports">Real-Time MLM Analytics</a></li>
+                                <li><a href="#" title="Real-Time Notifications">Real-Time Notifications</a></li>
+                                <li><a href="#" title="Order History and Analytics">Order History and Analytics</a></li>
+                                <li><a href="#" title="Advanced Payment Integration">Advanced Payment Integration</a></li>
+                                <li><a href="#" title="Automated Fare Calculation">Automated Fare Calculation</a></li>
+                                <li><a href="#" title="Driver and Restaurant Management">Driver and Restaurant Management</a></li>
                             </ul>
                         </div>
                     </div>
@@ -161,13 +161,13 @@ const MLM_Software = () => {
                 <div className="container">
                     <div className="row">
                         <div className="choice pb-5">
-                            <h2 className="fw-semibold">Supercharge Your MLM Business in Chandigarh Panchkula with Asvayuk Technologies' Custom MLM Software Solutions</h2>
-                            <p className="pt-2">In today's competitive market, leveraging advanced MLM software is crucial for business success. Asvayuk Technologies offers top-tier, customized MLM solutions designed to optimize your direct selling network, enhance commission management, and streamline downline operations.</p>
+                            <h2 className="fw-semibold">Supercharge Your Food Delivery Business with Asvayuk Technologies' Custom Solutions in Panchkula & Chandigarh</h2>
+                            <p className="pt-2">Unlock the full potential of your food delivery business with our advanced, scalable, and user-friendly Zomato/UrbanUp clone app solutions. Asvayuk Technologies is your trusted partner in the on-demand food delivery market.</p>
                             <ul>
-                                <li><span className="fw-bold h6">Tailored MLM Solutions:</span> Asvayuk offers custom MLM software development designed specifically to fit your business model, whether it's binary, matrix, or unilevel structures.</li>
-                                <li><span className="fw-bold h6">Scalable & Flexible:</span> Our MLM software is built to grow with your business, allowing you to scale operations, add new features, and manage an expanding network effortlessly.</li>
-                                <li><span className="fw-bold h6">Advanced Commission Management:</span> We implement advanced features for accurate and transparent commission calculations, empowering your network with reliable and real-time compensation tracking.</li>
-                                <li><span className="fw-bold h6">Enhanced Security:</span> Security is paramount for Asvayuk Technologies. Our MLM software includes secure user authentication, data encryption, and fraud detection protocols to safeguard your network.</li>
+                                <li><span className="fw-bold h6">Tailored Food Delivery Solutions:</span> Custom apps designed for your business and customer needs.</li>
+                                <li><span className="fw-bold h6">Scalable & Robust:</span> Solutions that scale with your business, ensuring future-proof development.</li>
+                                <li><span className="fw-bold h6">Enhanced Customer Engagement:</span> Seamless experiences to improve user retention.</li>
+                                <li><span className="fw-bold h6">Secure & Safe:</span> Prioritizing app security to protect both users and delivery partners.</li>
                             </ul>
                         </div>
                     </div>
@@ -175,16 +175,17 @@ const MLM_Software = () => {
             </section>
 
             <Experience
-                expTitle='Why Choose Asvayuk for MLM Software in Chandigarh Panchkula?'
-                point1='Proven MLM Expertise'
-                pointPara1='Boost your business with our expert MLM software solutions in Chandigarh and Panchkula, designed to streamline operations and drive growth.'
-                point2='Commitment to Quality'
-                pointPara2='Our quality assurance team ensures secure, high-performance MLM software tailored to the needs of Chandigarh Panchkula businesses.'
-                point3='Client-Centric Approach'
-                pointPara3='We tailor our MLM software solutions to align with your unique requirements in the Chandigarh Panchkula area.'
-                point4='Transparent Communication'
-                pointPara4='We keep you informed throughout the MLM software development process, ensuring clarity at every step for our clients in Chandigarh Panchkula.'
+                expTitle='Why Choose Asvayuk for Zomato/UrbanUp Clone App Development in Panchkula Chandigarh?'
+                point1='Expert On-Demand App Development'
+                pointPara1='We create scalable, customizable Zomato/UrbanUp clones for your business.'
+                point2='Innovative & Quality Solutions'
+                pointPara2='We deliver cutting-edge, feature-rich food delivery apps.'
+                point3='Customer-Centric Design'
+                pointPara3='Our apps are designed to enhance user engagement and satisfaction.'
+                point4='Clear Communication & Support'
+                pointPara4='We provide ongoing support and transparent communication throughout the development process.'
             />
+
 
             <section className="caseStuides">
                 <Container>
@@ -408,59 +409,64 @@ const MLM_Software = () => {
 
             <section className="Industries">
                 <div className="container">
-                    <div>
-                        <h1 className="fw-semibold">Industries We Serve with Asvayuk MLM Software</h1>
-                        <p>At Asvayuk, we cater to a wide range of industries, offering customized MLM software solutions that enhance business efficiency, drive growth, and streamline operations for MLM-based networks.</p>
+                    <div className="header-section">
+                        <h1 className="fw-semibold">Our Zomato/UrbanUp Clone App Development Solutions</h1>
+                        <p>
+                            At Asvayuk Technologies, we specialize in customizable and feature-rich Zomato/UrbanUp clone app solutions, designed to meet your business needs in the food delivery industry. Whether you're launching a food delivery platform, restaurant ordering system, or a complete on-demand service, our clone solutions ensure seamless user experiences and efficient order management.
+                        </p>
                     </div>
+
                     <div className="row pt-3">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Direct Selling</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Food Delivery App</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">eCommerce</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Restaurant Ordering System</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Healthtech</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">On-Demand Food Ordering</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Blockchain</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Grocery Delivery App</h5>
                             </div>
                         </div>
                     </div>
+
                     <div className="row pt-0 pt-lg-3 pt-md-3">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Fintech</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Food Delivery Clone App</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Traveltech</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Restaurant Admin Panel</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Realtech</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Delivery Driver App</h5>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Edtech</h3>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-2 mb-lg-0 mb-md-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 d-flex justify-content-center align-items-center py-3">
+                                <h5 style={{fontSize: '13px'}} className="mb-0">Order Tracking System</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+
         </>
     )
 }
 
-export default MLM_Software
+export default Zomato_Urbanup_Clone

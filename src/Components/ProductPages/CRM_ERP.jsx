@@ -29,8 +29,8 @@ const CRM_ERP = () => {
     return (
         <>
             <Meta_Component
-                title="Custom CRM and ERP Solutions | Asvayuk Technologies"
-                description="Asvayuk Technologies offers customized CRM and ERP solutions to streamline your business operations, enhance customer relationships, and boost productivity with cutting-edge technology."
+                title="CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur | Asvayuk Technologies"
+                description="Asvayuk Technologies offers customized CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur to streamline business operations, enhance customer relationships, and boost productivity with cutting-edge technology."
                 canonical="https://asvayuktech.com/crm-erp"
             />
 
@@ -44,16 +44,16 @@ const CRM_ERP = () => {
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                     <Breadcrumb.Item active>CRM and ERP Solutions</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>Custom CRM and ERP Solutions</h1>
+                                <h1>CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur</h1>
                                 <p className="py-3">
-                                    Enhance your business operations with Asvayuk Technologies' tailor-made CRM and ERP solutions. We specialize in developing integrated systems that improve customer relationship management, streamline workflows, and provide real-time insights to drive business success.
+                                    Enhance your business operations in Chandigarh, Panchkula, and Zirakpur with Asvayuk Technologies' tailor-made CRM and ERP solutions. We specialize in developing integrated systems that improve customer relationship management, streamline workflows, and provide real-time insights to drive business success.
                                 </p>
                                 <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={Ar_Vr} alt="CRM and ERP Solutions" className='w-100 h-100' />
+                                <img src={Ar_Vr} alt="CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur" className='w-100 h-100' />
                             </div>
                         </div>
                     </Row>
@@ -64,17 +64,17 @@ const CRM_ERP = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            Customized CRM and ERP Solutions <span className="text-uppercase" style={{ color: '#2cbe9a' }}>By Asvayuk Technologies</span>
+                            Customized CRM and ERP Solutions <span className="text-uppercase" style={{ color: '#2cbe9a' }}>by Asvayuk Technologies</span> in Chandigarh, Panchkula, and Zirakpur
                         </h1>
                         <p className="powered_php pt-3">
-                            <strong>Asvayuk Technologies</strong> is a leading provider of custom CRM and ERP solutions that are designed to automate processes, improve data management, and optimize customer relationships. Our tailored systems enhance business productivity by providing real-time reporting, data analytics, and seamless integration with existing tools.
+                            <strong>Asvayuk Technologies</strong> is a leading provider of CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur. Our systems are designed to automate processes, improve data management, and optimize customer relationships, enhancing business productivity with real-time reporting, data analytics, and seamless integration with existing tools.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
                                 <li><a href="#" title="CRM and ERP Features">CRM and ERP Features</a></li>
-                                <li><a href="#" title="Custom ERP System Development">Custom ERP Solutions</a></li>
+                                <li><a href="#" title="ERP System Development">ERP Solutions</a></li>
                                 <li><a href="#" title="CRM Integration">CRM System Integration</a></li>
                                 <li><a href="#" title="ERP for Business Automation">ERP for Business Process Automation</a></li>
                                 <li><a href="#" title="ERP Analytics">ERP Data Analytics</a></li>
@@ -86,7 +86,7 @@ const CRM_ERP = () => {
                                 <li><a href="#" title="Mobile CRM Solutions">Mobile CRM Systems</a></li>
                                 <li><a href="#" title="ERP for Inventory Management">ERP for Inventory Control</a></li>
                                 <li><a href="#" title="CRM Security">Secure CRM Systems</a></li>
-                                <li><a href="#" title="ERP Customization">Custom ERP Development</a></li>
+                                <li><a href="#" title="ERP Customization">ERP Development</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,19 +96,19 @@ const CRM_ERP = () => {
             <section className='magento_service_card'>
                 <Container>
                     <div className="card_heading text-center">
-                        <h2>CRM and ERP Solutions We Offer</h2>
-                        <p>Our team of experts at Asvayuk Technologies specializes in delivering tailored CRM and ERP solutions that streamline business operations, improve customer engagement, and automate workflows. Explore our advanced CRM and ERP services tailored to your business needs.</p>
+                        <h2>CRM and ERP Solutions We Offer in Chandigarh, Panchkula, and Zirakpur</h2>
+                        <p>Our team at Asvayuk Technologies provides tailored CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur, streamlining business operations, improving customer engagement, and automating workflows.</p>
                     </div>
                     <div className='magento_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} cardHeading="Custom CRM Development" cardPara="Develop a fully customized CRM system to manage customer relationships, automate sales, and enhance customer satisfaction." />
+                                <Magento_service_card cardImg={service1} cardHeading="CRM Development" cardPara="Develop a fully customized CRM system to manage customer relationships, automate sales, and enhance customer satisfaction in Chandigarh, Panchkula, and Zirakpur." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="ERP for Business Automation" cardPara="Implement an ERP system to automate key business processes, improve efficiency, and integrate all functions into one unified platform." />
+                                <Magento_service_card cardImg={service2} cardHeading="ERP for Business Automation" cardPara="Implement an ERP system to automate key business processes, improve efficiency, and integrate all functions into one platform, tailored for Chandigarh, Panchkula, and Zirakpur businesses." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service3} cardHeading="CRM and ERP Integration" cardPara="Seamlessly integrate CRM and ERP systems to provide a holistic view of your business, streamline operations, and improve data accuracy." />
+                                <Magento_service_card cardImg={service3} cardHeading="CRM and ERP Integration" cardPara="Seamlessly integrate CRM and ERP systems for a holistic view of your business, streamlining operations and improving data accuracy." />
                             </Col>
                             <Col lg={4}>
                                 <Magento_service_card cardImg={service4} cardHeading="Mobile CRM Solutions" cardPara="Provide your sales team with mobile CRM solutions to access customer data and manage relationships from anywhere, enhancing productivity." />
@@ -117,7 +117,7 @@ const CRM_ERP = () => {
                                 <Magento_service_card cardImg={service5} cardHeading="ERP for Inventory Management" cardPara="Optimize your supply chain and manage your inventory effectively with an ERP system tailored to your business needs." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service6} cardHeading="ERP Data Analytics" cardPara="Utilize real-time data analytics within your ERP system to gain valuable insights into your business performance and make informed decisions." />
+                                <Magento_service_card cardImg={service6} cardHeading="ERP Data Analytics" cardPara="Utilize real-time data analytics within your ERP system to gain insights into your business performance and make informed decisions." />
                             </Col>
                         </Row>
                     </div>
@@ -128,16 +128,16 @@ const CRM_ERP = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            Benefits of <span className="text-uppercase" style={{ color: '#2cbe9a' }}>Custom CRM and ERP Solutions</span>
+                            Benefits of <span className="text-uppercase" style={{ color: '#2cbe9a' }}>CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            Investing in CRM and ERP solutions offers multiple benefits for businesses looking to enhance operational efficiency, improve customer engagement, and drive growth. Our custom CRM and ERP systems provide advanced automation, analytics, and integration to optimize business processes and improve decision-making.
+                            Investing in CRM and ERP solutions offers multiple benefits for businesses in Chandigarh, Panchkula, and Zirakpur. Our systems provide advanced automation, analytics, and integration to optimize business processes and improve decision-making.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="CRM System Customization">Custom CRM Development</a></li>
+                                <li><a href="#" title="CRM System Customization">CRM Development</a></li>
                                 <li><a href="#" title="ERP for Efficiency">ERP for Operational Efficiency</a></li>
                                 <li><a href="#" title="Sales and Marketing Automation">CRM for Sales and Marketing Automation</a></li>
                                 <li><a href="#" title="Business Process Automation">ERP for Business Process Automation</a></li>
@@ -161,15 +161,15 @@ const CRM_ERP = () => {
                 <div className="container">
                     <div className="row">
                         <div className="choice pb-5">
-                            <h2 className="fw-semibold">Supercharge Your Business with CRM and ERP Solutions from Asvayuk Technologies</h2>
-                            <p className="pt-2">Leverage powerful CRM and ERP technology to streamline operations, improve customer engagement, and drive business growth. Asvayuk Technologies offers personalized and scalable CRM and ERP solutions tailored to meet your business needs.</p>
+                            <h2 className="fw-semibold">Transform Your Business in Chandigarh, Panchkula, and Zirakpur with Asvayuk's CRM and ERP Solutions</h2>
+                            <p className="pt-2">Leverage powerful CRM and ERP technology to streamline operations, improve customer engagement, and drive business growth. Asvayuk Technologies offers personalized and scalable CRM and ERP solutions tailored to meet your needs.</p>
                             <ul>
-                                <li><span className="fw-bold h6">Tailored CRM and ERP Solutions:</span> Custom development to optimize business operations and improve customer relationship management.</li>
-                                <li><span className="fw-bold h6">Scalable and Flexible:</span> Our CRM and ERP systems are designed to grow with your business and adapt to your evolving needs.</li>
+                                <li><span className="fw-bold h6">Tailored CRM and ERP Solutions:</span> development to optimize business operations and improve customer relationship management in Chandigarh, Panchkula, and Zirakpur.</li>
+                                <li><span className="fw-bold h6">Scalable and Flexible:</span> Our systems are designed to grow with your business in these areas and adapt to your evolving needs.</li>
                                 <li><span className="fw-bold h6">Advanced Data Analytics:</span> Real-time reporting and analytics to help you make data-driven decisions and optimize performance.</li>
-                                <li><span className="fw-bold h6">Security-Focused Design:</span> Robust security features to protect sensitive business data and ensure privacy.</li>
+                                <li><span className="fw-bold h6">Security-Focused Design:</span> Robust security features to protect sensitive business data.</li>
                                 <li><span className="fw-bold h6">User-Friendly Interface:</span> Easy-to-use systems that streamline processes and enhance user experience.</li>
-                                <li><span className="fw-bold h6">Post-Launch Support:</span> Ongoing support and maintenance to ensure your CRM and ERP systems perform seamlessly.</li>
+                                <li><span className="fw-bold h6">Post-Launch Support:</span> Ongoing support and maintenance to ensure your systems perform seamlessly.</li>
                             </ul>
                         </div>
                     </div>
@@ -177,16 +177,17 @@ const CRM_ERP = () => {
             </section>
 
             <Experience
-                expTitle='Why Choose Asvayuk for Custom CRM and ERP Solutions?'
+                expTitle='Why Choose Asvayuk for CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur?'
                 point1='Proven Expertise'
-                pointPara1='Asvayuk offers years of experience delivering tailored CRM and ERP solutions that streamline operations and improve customer relationships.'
+                pointPara1='Asvayuk offers years of experience delivering tailored CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur that streamline operations and improve customer relationships.'
                 point2='Quality and Security'
-                pointPara2='Our CRM and ERP systems are secure, reliable, and optimized to meet your business needs.'
+                pointPara2='Our systems are secure, reliable, and optimized to meet your business needs.'
                 point3='Business-Specific Customization'
-                pointPara3='We design CRM and ERP solutions that fit your business processes, enhancing efficiency and supporting growth.'
+                pointPara3='We design solutions that fit your business processes in these regions, enhancing efficiency and supporting growth.'
                 point4='Clear Communication'
                 pointPara4='We ensure transparent communication throughout the process, keeping you informed at every stage.'
             />
+
 
             <section className="caseStuides">
                 <Container>
@@ -412,7 +413,7 @@ const CRM_ERP = () => {
                 <div className="container">
                     <div>
                         <h1 className="fw-semibold">Industries We Serve with Asvayuk CRM and ERP Solutions</h1>
-                        <p>At Asvayuk, we provide custom CRM and ERP solutions tailored to a variety of industries. Our innovative systems help businesses automate operations, improve customer relationships, and drive growth across multiple sectors.</p>
+                        <p>At Asvayuk, we provide CRM and ERP solutions tailored to a variety of industries. Our innovative systems help businesses automate operations, improve customer relationships, and drive growth across multiple sectors.</p>
                     </div>
                     <div className="row pt-3">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">

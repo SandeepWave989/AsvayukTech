@@ -34,7 +34,7 @@ const AutoPopupModal = () => {
         // Reopen the modal after 3 seconds (adjust timing as needed)
         const reopenTimeout = setTimeout(() => {
             setIsVisible(true);
-        }, 3000);
+        }, 5000);
 
         return () => clearTimeout(reopenTimeout); // Clean up the timeout if the modal is closed again
     };

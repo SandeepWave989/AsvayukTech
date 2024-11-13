@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import BannerButton from '../BannerBtn/BannerButton'
-import Ar_Vr from '../../Images/mlm_banner.webp'
+import Ar_Vr from '../../Images/schoolM.png'
 import Experience from '../HomePage/Experience'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
@@ -25,35 +25,35 @@ import service5 from '../../Images/services5.webp'
 import service6 from '../../Images/services6.webp'
 
 
-const MLM_Software = () => {
+const SchoolManagement = () => {
     return (
         <>
             <Meta_Component
-                title="MLM Software in Chandigarh Panchkula | Asvayuk Technologies"
-                description="Asvayuk offers advanced MLM Software development services in Chandigarh and Panchkula to optimize multi-level marketing strategies and achieve scalable growth. Custom MLM Solutions tailored to your business needs."
-                canonical="https://asvayuktech.com/mlm-software-chandigarh-panchkula"
+                title="School Management Solutions by Asvayuk Technologies Panchkula Chandigarh"
+                description="Asvayuk Technologies offers customized and scalable school management solutions in Panchkula and Chandigarh, enabling schools to streamline operations and enhance educational experiences."
+                canonical="https://asvayuktech.com/school-management-solutions-panchkula-chandigarh"
             />
 
-            <section className="banner-en">
+            <section className="banner-en py-0 py-lg-5 py-md-5">
                 <Container>
                     <Row className="align-items-center">
                         <div className="col-lg-6">
                             <div className="banner_textInfo-en">
                                 <Breadcrumb>
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
-                                    <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
-                                    <Breadcrumb.Item active>MLM Software Chandigarh Panchkula</Breadcrumb.Item>
+                                    <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
+                                    <Breadcrumb.Item active>School Management Solutions</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>MLM Software Development in Chandigarh Panchkula</h1>
+                                <h1>School Management in Panchkula and Chandigarh</h1>
                                 <p className="py-3">
-                                    Asvayuk Technologies specializes in providing custom MLM software solutions in Chandigarh and Panchkula. We help businesses streamline commission tracking, downline management, and performance analytics to achieve optimal growth in the multi-level marketing industry.
+                                    Asvayuk Technologies specializes in developing comprehensive school management software solutions in Panchkula and Chandigarh. Our scalable and customizable solutions help educational institutions automate and streamline administrative tasks.
                                 </p>
                                 <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={Ar_Vr} alt="MLM Software Chandigarh Panchkula" className='w-100 h-100' />
+                                <img src={Ar_Vr} alt="School Management Solutions Panchkula Chandigarh" className='w-100 h-100' />
                             </div>
                         </div>
                     </Row>
@@ -64,29 +64,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            DEDICATED DEVELOPERS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>FOR MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            LEADING SCHOOL MANAGEMENT SOLUTIONS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>IN PANCHKULA AND CHANDIGARH</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            <strong>Asvayuk Technologies</strong> is a premier MLM software development company located in Chandigarh, offering specialized solutions for businesses in Chandigarh and Panchkula. Our custom MLM software helps optimize your business with efficient downline management, enhanced commission systems, and real-time reports.
+                            Asvayuk Technologies offers reliable school management in Panchkula and Chandigarh. Our solutions are tailored for schools, helping them efficiently manage student data, exams, schedules, and more.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM company registration">MLM Company Registration</a></li>
-                                <li><a href="#" title="Design: Business plans for MLM">MLM Business Plan Design</a></li>
-                                <li><a href="#" title="MLM Software Solutions">MLM Software Solutions</a></li>
-                                <li><a href="#" title="MLM Digital Marketing">MLM Digital Marketing</a></li>
-                                <li><a href="#" title="Promotions & Special Offers">Holiday Voucher</a></li>
+                                <li><a href="#" title="School Management App Development Panchkula">School Management App Development</a></li>
+                                <li><a href="#" title="Custom School Solutions Chandigarh">Custom School Solutions</a></li>
+                                <li><a href="#" title="Student Management Systems Panchkula">Student Management Systems</a></li>
+                                <li><a href="#" title="Exam and Result Management Chandigarh">Exam and Result Management</a></li>
+                                <li><a href="#" title="Timetable and Scheduling Solutions">Timetable and Scheduling Solutions</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="ISO Certification Services">ISO Certification</a></li>
-                                <li><a href="#" title="E-commerce portal integration">E-commerce Portal</a></li>
-                                <li><a href="#" title="Multimedia Solutions">Promotional Video</a></li>
-                                <li><a href="#" title="Business Planning">Business Plan PPT/PDF</a></li>
-                                <li><a href="#" title="Personal Care Products for MLM">Personal Care Products</a></li>
+                                <li><a href="#" title="Real-Time Student Tracking">Real-Time Student Tracking</a></li>
+                                <li><a href="#" title="Parent-Teacher Communication System">Parent-Teacher Communication System</a></li>
+                                <li><a href="#" title="Online Fee Management Solutions">Online Fee Management Solutions</a></li>
+                                <li><a href="#" title="School App UI/UX Design">School App UI/UX Design</a></li>
+                                <li><a href="#" title="School Management System Security Features">School Management System Security Features</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,28 +96,28 @@ const MLM_Software = () => {
             <section className='magento_service_card'>
                 <Container>
                     <div className="card_heading text-center">
-                        <h2>MLM Software Solutions We Offer in Chandigarh Panchkula</h2>
-                        <p>Our expert team specializes in building customized MLM software solutions tailored to meet the specific needs of network marketing businesses in Chandigarh Panchkula. We enhance your business operations with automation, advanced commission systems, and powerful reporting tools.</p>
+                        <h2>Our School Management Solutions in Panchkula and Chandigarh</h2>
+                        <p>At Asvayuk Technologies, we provide end-to-end school management software development services, focusing on automating operations and enhancing communication between teachers, students, and parents.</p>
                     </div>
-                    <div className='magento_cards'>
+                    <div className='game_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} cardHeading="MLM System Customization" cardPara="Develop a tailor-made MLM software system that fits your business needs, providing scalability and flexibility." />
+                                <Magento_service_card cardImg={service1} cardHeading="Custom School Management Software" cardPara="We create custom school management solutions, tailored to meet your institution's unique needs and goals." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="MLM Mobile App Development" cardPara="Create a mobile app for your MLM business, offering easy access to your network and real-time updates." />
+                                <Magento_service_card cardImg={service2} cardHeading="Student & Faculty Management" cardPara="Our software enables seamless management of student and faculty data, enhancing academic and administrative efficiency." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service3} cardHeading="Advanced MLM Commission Systems" cardPara="Implement complex commission structures for your MLM business, ensuring seamless compensation management." />
+                                <Magento_service_card cardImg={service3} cardHeading="Real-Time Communication Tools" cardPara="We integrate real-time communication tools for efficient interaction between teachers, students, and parents." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service4} cardHeading="MLM Software Integration" cardPara="Integrate your MLM system with eCommerce platforms and CRM tools to streamline operations and improve workflow." />
+                                <Magento_service_card cardImg={service4} cardHeading="Fee & Payment Management" cardPara="Our school management system includes automated fee collection, payment tracking, and invoice generation features." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service5} cardHeading="MLM Software Security" cardPara="Ensure the security of your MLM platform with robust encryption, fraud detection, and secure data management features." />
+                                <Magento_service_card cardImg={service5} cardHeading="Timetable & Scheduling Features" cardPara="Our platform provides easy-to-manage timetables and scheduling features for students, teachers, and school staff." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service6} cardHeading="Real-Time Analytics for MLM" cardPara="Gain valuable insights into your MLM network’s performance with real-time analytics and custom reports." />
+                                <Magento_service_card cardImg={service6} cardHeading="Exam & Result Management" cardPara="We help schools manage exams, results, and grade books, streamlining the entire process for efficiency." />
                             </Col>
                         </Row>
                     </div>
@@ -128,29 +128,29 @@ const MLM_Software = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            BENEFITS OF CUSTOM <span className="text-uppercase" style={{ color: '#2cbe9a' }}>MLM SOFTWARE IN CHANDIGARH PANCHKULA</span>
+                            BENEFITS OF ASVAYUK'S SCHOOL MANAGEMENT SOFTWARE <span className="text-uppercase" style={{ color: '#2cbe9a' }}>IN PANCHKULA AND CHANDIGARH</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            By choosing custom MLM software, your business in Chandigarh Panchkula can leverage automation to manage your MLM network more effectively. Our MLM software is designed to offer flexibility, scalability, and enhanced functionality, allowing your business to thrive in the competitive MLM market.
+                            Asvayuk Technologies provides schools in Panchkula and Chandigarh with the best management software solutions, offering unmatched features for efficient school operations, improved student experience, and growth.
                         </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM System Customization">Custom MLM System Development</a></li>
-                                <li><a href="#" title="MLM Business Automation">MLM Business Automation</a></li>
-                                <li><a href="#" title="Multi-Tier Commission Management">Multi-Tier Commission Management</a></li>
-                                <li><a href="#" title="Advanced Reporting for MLM">Advanced MLM Reporting</a></li>
-                                <li><a href="#" title="Secure MLM Software">MLM Software Security Features</a></li>
+                                <li><a href="#" title="Efficient School Management Software">Efficient School Management Software</a></li>
+                                <li><a href="#" title="User-Friendly Interface for Schools">User-Friendly Interface</a></li>
+                                <li><a href="#" title="Customizable School Management Features">Customizable Features</a></li>
+                                <li><a href="#" title="Mobile Compatibility">Mobile Compatibility</a></li>
+                                <li><a href="#" title="Comprehensive Student Data Management">Comprehensive Student Data Management</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-6">
                             <ul className="development_links">
-                                <li><a href="#" title="MLM Data Analytics">MLM Data Analytics</a></li>
-                                <li><a href="#" title="Mobile-Friendly MLM Software">Mobile-Friendly MLM Software</a></li>
-                                <li><a href="#" title="Integrated MLM System">MLM System Integration</a></li>
-                                <li><a href="#" title="MLM App Development">MLM App Development</a></li>
-                                <li><a href="#" title="Real-Time MLM Reports">Real-Time MLM Analytics</a></li>
+                                <li><a href="#" title="Secure Payment Integration">Secure Payment Integration</a></li>
+                                <li><a href="#" title="Advanced Reporting Features">Advanced Reporting Features</a></li>
+                                <li><a href="#" title="Real-Time Updates and Notifications">Real-Time Updates and Notifications</a></li>
+                                <li><a href="#" title="Online Exam Management">Online Exam Management</a></li>
+                                <li><a href="#" title="Comprehensive Data Security">Comprehensive Data Security</a></li>
                             </ul>
                         </div>
                     </div>
@@ -161,13 +161,13 @@ const MLM_Software = () => {
                 <div className="container">
                     <div className="row">
                         <div className="choice pb-5">
-                            <h2 className="fw-semibold">Supercharge Your MLM Business in Chandigarh Panchkula with Asvayuk Technologies' Custom MLM Software Solutions</h2>
-                            <p className="pt-2">In today's competitive market, leveraging advanced MLM software is crucial for business success. Asvayuk Technologies offers top-tier, customized MLM solutions designed to optimize your direct selling network, enhance commission management, and streamline downline operations.</p>
+                            <h2 className="fw-semibold">Supercharge Your School Management System with Asvayuk Technologies' Custom Solutions in Panchkula and Chandigarh</h2>
+                            <p className="pt-2">Empower your school with our scalable, customizable, and user-friendly school management software. Asvayuk Technologies is your trusted partner for optimizing educational management and ensuring streamlined operations.</p>
                             <ul>
-                                <li><span className="fw-bold h6">Tailored MLM Solutions:</span> Asvayuk offers custom MLM software development designed specifically to fit your business model, whether it's binary, matrix, or unilevel structures.</li>
-                                <li><span className="fw-bold h6">Scalable & Flexible:</span> Our MLM software is built to grow with your business, allowing you to scale operations, add new features, and manage an expanding network effortlessly.</li>
-                                <li><span className="fw-bold h6">Advanced Commission Management:</span> We implement advanced features for accurate and transparent commission calculations, empowering your network with reliable and real-time compensation tracking.</li>
-                                <li><span className="fw-bold h6">Enhanced Security:</span> Security is paramount for Asvayuk Technologies. Our MLM software includes secure user authentication, data encryption, and fraud detection protocols to safeguard your network.</li>
+                                <li><span className="fw-bold h6">Tailored School Management Solutions:</span> Custom solutions designed to meet your school’s unique needs.</li>
+                                <li><span className="fw-bold h6">Scalable & Robust:</span> Our solutions grow with your institution, ensuring long-term sustainability.</li>
+                                <li><span className="fw-bold h6">Enhanced User Engagement:</span> A seamless experience for administrators, teachers, students, and parents.</li>
+                                <li><span className="fw-bold h6">Data Security & Privacy:</span> We prioritize your data security with the latest technologies and standards.</li>
                             </ul>
                         </div>
                     </div>
@@ -175,15 +175,15 @@ const MLM_Software = () => {
             </section>
 
             <Experience
-                expTitle='Why Choose Asvayuk for MLM Software in Chandigarh Panchkula?'
-                point1='Proven MLM Expertise'
-                pointPara1='Boost your business with our expert MLM software solutions in Chandigarh and Panchkula, designed to streamline operations and drive growth.'
-                point2='Commitment to Quality'
-                pointPara2='Our quality assurance team ensures secure, high-performance MLM software tailored to the needs of Chandigarh Panchkula businesses.'
-                point3='Client-Centric Approach'
-                pointPara3='We tailor our MLM software solutions to align with your unique requirements in the Chandigarh Panchkula area.'
-                point4='Transparent Communication'
-                pointPara4='We keep you informed throughout the MLM software development process, ensuring clarity at every step for our clients in Chandigarh Panchkula.'
+                expTitle='Why Choose Asvayuk for School Management Software in Panchkula Chandigarh?'
+                point1='Expert School Management Solutions'
+                pointPara1='We provide tailor-made solutions for educational institutions.'
+                point2='Innovative & User-Centric Design'
+                pointPara2='Our school management software is designed for ease of use and efficiency.'
+                point3='Customizable Features'
+                pointPara3='We offer a range of customizable features to fit your specific needs.'
+                point4='Ongoing Support & Maintenance'
+                pointPara4='We ensure continuous support and regular updates for your software.'
             />
 
             <section className="caseStuides">
@@ -408,59 +408,59 @@ const MLM_Software = () => {
 
             <section className="Industries">
                 <div className="container">
-                    <div>
-                        <h1 className="fw-semibold">Industries We Serve with Asvayuk MLM Software</h1>
-                        <p>At Asvayuk, we cater to a wide range of industries, offering customized MLM software solutions that enhance business efficiency, drive growth, and streamline operations for MLM-based networks.</p>
+                    <div className="header-section">
+                        <h1 className="fw-semibold">Our School Management Solutions with Asvayuk</h1>
+                        <p>At Asvayuk Technologies, we offer customizable and feature-rich school management solutions tailored to your educational institution's needs. Whether you're looking to manage students, streamline fee collections, or improve administrative efficiency, our solutions are designed to create a seamless and efficient experience for both staff and students.</p>
                     </div>
+
                     <div className="row pt-3">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Direct Selling</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Student Management System</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">eCommerce</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Fee Management</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Healthtech</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Class Timetable Management</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Blockchain</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Teacher & Staff Management</h6>
                             </div>
                         </div>
-                    </div>
-                    <div className="row pt-0 pt-lg-3 pt-md-3">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Fintech</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Communication Portal</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Traveltech</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Examination & Grading System</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Realtech</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Library Management</h6>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                            <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                <h3 className="mb-0">Edtech</h3>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-6 px-2">
+                            <div className="industries_info border border-2 border-dark rounded-3 text-center mb-3">
+                                <h6 className="mb-0">Report & Analytics</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+
         </>
     )
 }
 
-export default MLM_Software
+export default SchoolManagement

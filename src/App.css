@@ -850,4 +850,49 @@ textarea.input {
   animation: bounce 5s ease-in-out infinite;
 }
 
+.pulse {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #249f81;
+  background-image: radial-gradient(hsl(165.37deg 63.08% 38.24%), hsl(165.37deg 63.08% 38.24%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+}
 
+.pulse::before, .pulse::after {
+  content: '';
+  position: absolute;
+  width: calc(100%);
+  height: calc(100%);
+  border-radius: 50%;
+  border: 1px solid #249f81;
+  animation: calling 2s ease-in-out infinite;
+}
+
+.pulse::after {
+	animation: calling 2s ease-in-out .35s infinite;
+}
+
+@keyframes calling {
+	0% {
+		width: calc(100%);     
+    height: calc(100%);
+		opacity: 1;
+	}
+	100% {
+		width: calc(100% + 40px);     
+    height: calc(100% + 40px);
+		opacity: 0;
+	}
+}
+
+
+.tab_menu_top a:hover {
+  color: var(--main) !important; 
+}

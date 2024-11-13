@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import BannerButton from '../BannerBtn/BannerButton'
-import Ar_Vr from '../../Images/CryptoWallet.webp'
+import Ar_Vr from '../../Images/jobPortal.png'
 import Experience from '../HomePage/Experience'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
@@ -30,11 +30,11 @@ const TradingBot = () => {
         <>
             <Meta_Component
                 title="Job Portal Solutions | Asvayuk Technologies"
-                description="Explore job portal solutions with Asvayuk Technologies in Chandigarh, Panchkula, and Zarapkar, offering innovative platforms for employers and job seekers to connect efficiently."
+                description="Explore job portal solutions with Asvayuk Technologies in Chandigarh and Panchkula, offering innovative platforms for employers and job seekers to connect efficiently."
                 canonical="https://asvayuktech.com/job-portal-solutions"
             />
 
-            <section className="banner-en">
+            <section className="banner-en py-0 py-lg-y py-md-4">
                 <Container>
                     <Row className="align-items-center">
                         <div className="col-lg-6">
@@ -425,14 +425,6 @@ const TradingBot = () => {
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
-
-
 
         </>
     )

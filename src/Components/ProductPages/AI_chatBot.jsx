@@ -29,9 +29,9 @@ const AI_chatBot = () => {
     return (
         <>
             <Meta_Component
-                title="AI ChatBot Development | Asvayuk Technologies"
-                description="Asvayuk Technologies specializes in advanced AI ChatBot development services, offering businesses customized AI-powered solutions for improved customer engagement and support."
-                canonical="https://asvayuktech.com/ai-chatbot"
+                title="AI ChatBot Chandigarh and Panchkula | Asvayuk Technologies"
+                description="Asvayuk Technologies offers AI ChatBot development services in Chandigarh and Panchkula, providing businesses with AI-powered solutions for enhanced customer engagement and support."
+                canonical="https://asvayuktech.com/ai-chatbot-chandigarh-panchkula"
             />
 
             <section className="banner-en">
@@ -44,16 +44,16 @@ const AI_chatBot = () => {
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                     <Breadcrumb.Item active>AI ChatBot Development</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>AI ChatBot Development</h1>
+                                <h1>AI ChatBot Development in Chandigarh & Panchkula</h1>
                                 <p className="py-3">
-                                    AI ChatBots are transforming customer interaction strategies. At Asvayuk Technologies, we specialize in developing smart AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency through seamless communication.
+                                    Transform customer engagement strategies with AI ChatBots. At Asvayuk Technologies, we specialize in developing AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency, now in Chandigarh and Panchkula.
                                 </p>
                                 <BannerButton btnTitle='Get Free Consultation' url='/contact-us' />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={Ar_Vr} alt="AI ChatBot Solutions" className='w-100 h-100  image-bounce' />
+                                <img src={Ar_Vr} alt="AI ChatBot Solutions in Chandigarh and Panchkula" className='w-100 h-100 image-bounce' />
                             </div>
                         </div>
                     </Row>
@@ -64,10 +64,10 @@ const AI_chatBot = () => {
                 <Container>
                     <div className='pb-4'>
                         <h1 className='fw-bold'>
-                            CUSTOM AI CHATBOT SOLUTIONS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>By Asvayuk Technologies</span>
+                            CUSTOM AI CHATBOT SOLUTIONS <span className="text-uppercase" style={{ color: '#2cbe9a' }}>By Asvayuk Technologies in Chandigarh & Panchkula</span>
                         </h1>
                         <p className="powered_php pt-3">
-                            <strong>Asvayuk Technologies</strong> is a leading AI ChatBot development company offering tailor-made solutions for businesses looking to automate customer service and enhance user interactions. Our AI-powered ChatBots are designed to provide personalized and instant responses, helping businesses engage customers more effectively and streamline operations.
+                            <strong>Asvayuk Technologies</strong> is a leading AI ChatBot development company offering custom solutions for businesses in Chandigarh and Panchkula. Our AI-powered ChatBots provide personalized responses, helping businesses improve engagement and streamline operations.
                         </p>
                     </div>
                     <div className="row">
@@ -96,8 +96,8 @@ const AI_chatBot = () => {
             <section className='magento_service_card'>
                 <Container>
                     <div className="card_heading text-center">
-                        <h2>AI ChatBot Solutions We Provide</h2>
-                        <p>Our expert team at Asvayuk Technologies specializes in creating customized AI ChatBots to enhance business performance. From automating customer support to driving engagement through conversational AI, we offer robust solutions tailored to your business needs.</p>
+                        <h2>AI ChatBot Solutions We Provide in Chandigarh & Panchkula</h2>
+                        <p>Our team at Asvayuk Technologies specializes in creating customized AI ChatBots to enhance business performance in Chandigarh and Panchkula, offering services from automated support to e-commerce integration.</p>
                     </div>
                     <div className='magento_cards'>
                         <Row className='gy-4'>
@@ -123,72 +123,6 @@ const AI_chatBot = () => {
                     </div>
                 </Container>
             </section>
-
-            <section className='bg-white py-5'>
-                <Container>
-                    <div className='pb-4'>
-                        <h1 className='fw-bold'>
-                            ADVANTAGES OF CUSTOM <span className="text-uppercase" style={{ color: '#2cbe9a' }}>AI ChatBot DEVELOPMENT</span>
-                        </h1>
-                        <p className="powered_php pt-3">
-                            By investing in AI ChatBot development, businesses can automate routine tasks, improve customer interactions, and reduce operational costs. Our custom AI ChatBot solutions offer flexibility, scalability, and powerful AI capabilities to help your business thrive in a competitive market.
-                        </p>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <ul className="development_links">
-                                <li><a href="#" title="ChatBot Customization">Custom AI ChatBot Development</a></li>
-                                <li><a href="#" title="24/7 Customer Support">24/7 AI ChatBot Support</a></li>
-                                <li><a href="#" title="AI ChatBot for Sales">AI ChatBot for Sales Conversion</a></li>
-                                <li><a href="#" title="Conversational AI">Conversational AI Solutions</a></li>
-                                <li><a href="#" title="ChatBot Security Features">Secure AI ChatBot Development</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-6">
-                            <ul className="development_links">
-                                <li><a href="#" title="AI ChatBot Performance Analysis">ChatBot Performance Analysis</a></li>
-                                <li><a href="#" title="AI ChatBot Integration">Seamless ChatBot Integration</a></li>
-                                <li><a href="#" title="AI ChatBot for CRM">AI ChatBot for CRM Integration</a></li>
-                                <li><a href="#" title="Personalized AI Bots">Personalized AI ChatBots</a></li>
-                                <li><a href="#" title="Smart AI Solutions">Advanced AI Solutions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </Container>
-            </section>
-
-
-            <section className="supercharge-section">
-                <div className="container">
-                    <div className="row">
-                        <div className="choice pb-5">
-                            <h2 className="fw-semibold">Supercharge Your Business with Asvayuk Technologies' Custom AI ChatBot Solutions</h2>
-                            <p className="pt-2">In the competitive digital landscape, integrating advanced AI ChatBot solutions is essential for enhancing customer interactions and automating business processes. Asvayuk Technologies offers top-tier, customized AI ChatBot development services to streamline customer support, boost engagement, and increase operational efficiency.</p>
-                            <ul>
-                                <li><span className="fw-bold h6">Tailored AI ChatBot Solutions:</span> Asvayuk offers custom AI ChatBot development specifically designed to meet your business needs, whether it’s for customer support, lead generation, or sales automation.</li>
-                                <li><span className="fw-bold h6">Scalable & Flexible:</span> Our AI ChatBots are designed to scale with your business, easily adapting to increased user interactions, new features, and evolving customer needs.</li>
-                                <li><span className="fw-bold h6">Advanced AI Technology:</span> We implement advanced AI and NLP (Natural Language Processing) algorithms for intelligent, context-aware conversations, providing an exceptional user experience.</li>
-                                <li><span className="fw-bold h6">Data-Driven Insights:</span> Our AI ChatBots provide powerful analytics, enabling you to track user behavior, measure performance, and make data-driven decisions to enhance your business growth.</li>
-                                <li><span className="fw-bold h6">Security-Focused Development:</span> At Asvayuk, we prioritize security by ensuring that your AI ChatBot is built with robust data protection measures to safeguard sensitive customer information.</li>
-                                <li><span className="fw-bold h6">User-Centric Design:</span> Our expert UI/UX team focuses on creating intuitive, user-friendly interfaces that provide a seamless and engaging experience for both customers and business teams.</li>
-                                <li><span className="fw-bold h6">Post-Launch Support:</span> We offer ongoing support and maintenance services, ensuring your AI ChatBot continues to perform optimally and evolve with your business needs.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <Experience
-                expTitle='Why Choose Asvayuk for AI ChatBot Development?'
-                point1='Proven AI Expertise'
-                pointPara1='Benefit from our extensive experience in creating AI-powered solutions that automate customer interactions and drive engagement.'
-                point2='Commitment to Quality'
-                pointPara2='Our dedicated QA team ensures your AI ChatBot is secure, performs well, and aligns with your business goals.'
-                point3='Client-Centric Approach'
-                pointPara3='We tailor AI ChatBot solutions to your specific needs, guaranteeing successful and impactful results.'
-                point4='Transparent Communication'
-                pointPara4='We ensure clear, consistent communication throughout development, so you’re always in the loop and confident in the process.'
-            />
 
             <section className="caseStuides">
                 <Container>
@@ -462,7 +396,6 @@ const AI_chatBot = () => {
                     </div>
                 </div>
             </section>
-
 
         </>
     )

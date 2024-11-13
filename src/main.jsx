@@ -42,6 +42,14 @@ import DAP_DAO from './Components/ProductPages/DAP_DAO.jsx';
 import CryptoWallet from './Components/ProductPages/CryptoWallet.jsx';
 import TradingBot from './Components/ProductPages/TradingBot.jsx';
 import JobPortal from './Components/ProductPages/JobPortal.jsx';
+import Game24 from './Components/ProductPages/Game24.jsx';
+import Uber_ola_clone from './Components/ProductPages/Uber_ola_clone.jsx';
+import CryptoExchange from './Components/ProductPages/CryptoExchange.jsx';
+import SchoolManagement from './Components/ProductPages/SchoolManagement.jsx';
+import Zomato_Urbanup_Clone from './Components/ProductPages/Zomato_Urbanup_Clone.jsx';
+import Layer1_Layer2_BlockChain from './Components/ProductPages/Layer1_Layer2_BlockChain.jsx';
+import HospitalManagement from './Components/ProductPages/HospitalManagement.jsx';
+import MultivendorEcommerce from './Components/ProductPages/MultivendorEcommerce.jsx';
 
 
 const router = createBrowserRouter([
@@ -84,13 +92,21 @@ const router = createBrowserRouter([
       { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <Blockchain_Developer /> },
       { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
       // Product Pages
-      { path: "/mlm-software", element: <MLM_Software /> },
-      { path: "/ai-chatbot", element: <AI_chatBot /> },
-      { path: "/crm-erp", element: <CRM_ERP /> },
-      { path: "/dap-dao", element: <DAP_DAO /> },
-      { path: "/crypto-wallet", element: <CryptoWallet /> },
-      { path: "/trading-bot", element: <TradingBot /> },
-      { path: "/job-portal", element: <JobPortal /> },
+      { path: "/mlm-software-chandigarh-panchkula", element: <MLM_Software /> },
+      { path: "/ai-chatbot-chandigarh-panchkula", element: <AI_chatBot /> },
+      { path: "/crm-erp-chandigarh-panchkula", element: <CRM_ERP /> },
+      { path: "/dap-dao-chandigarh-panchkula", element: <DAP_DAO /> },
+      { path: "/crypto-wallet-chandigarh-panchkula", element: <CryptoWallet /> },
+      { path: "/trading-bot-chandigarh-panchkula", element: <TradingBot /> },
+      { path: "/job-portal-chandigarh-panchkula", element: <JobPortal /> },
+      { path: "/game24-chandigarh-panchkula", element: <Game24 /> },
+      { path: "/uber-ola-clone-panchkula-chandigarh", element: <Uber_ola_clone /> },
+      { path: "/crypto-exchnage-chandigarh-panchkula", element: <CryptoExchange /> },
+      { path: "/school-management-panchkula-chandigarh", element: <SchoolManagement /> },
+      { path: "/zomato-urbanup-clone-panchkula-chandigarh", element: <Zomato_Urbanup_Clone /> },
+      { path: "layer1-layer2-blockchain-panchkula-chandigarh", element: <Layer1_Layer2_BlockChain /> },
+      { path: "/hospital-management-panchkula-chandigarh", element: <HospitalManagement /> },
+      { path: "/multi-vendor-ecommerce-panchkula-chandigarh", element: <MultivendorEcommerce /> },
     ],
   },
 ]);
