@@ -25,13 +25,13 @@ import Meta_Component from '../Meta_Component/Meta_Component'
 
 function CaseStudies() {
     return (
-        
+
         <>
-         <Meta_Component 
-        title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
-        description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
-         canonical="https://asvayuktech.com/case-studies"
-       />
+            <Meta_Component
+                title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
+                description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
+                canonical="https://asvayuktech.com/case-studies"
+            />
             <main>
 
                 <section className="caseStudies_main">
@@ -55,7 +55,7 @@ function CaseStudies() {
                             </div>
                         </div>
                     </Container>
-                </section>
+                </section>  
 
                 <section className="singleCaseplan py-5">
                     <Container>

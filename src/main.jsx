@@ -50,6 +50,11 @@ import Zomato_Urbanup_Clone from './Components/ProductPages/Zomato_Urbanup_Clone
 import Layer1_Layer2_BlockChain from './Components/ProductPages/Layer1_Layer2_BlockChain.jsx';
 import HospitalManagement from './Components/ProductPages/HospitalManagement.jsx';
 import MultivendorEcommerce from './Components/ProductPages/MultivendorEcommerce.jsx';
+import SingleCaseStudy from './Components/SingleCaseStudiesPages/SingleCaseStudy.jsx';
+import QuadLock from './Components/SingleCaseStudiesPages/QuadLock.jsx';
+import TheModernShop from './Components/SingleCaseStudiesPages/TheModernShop.jsx';
+import Coffee49th from './Components/SingleCaseStudiesPages/Coffee49th.jsx';
+import KrishnaPearls from './Components/SingleCaseStudiesPages/KrishnaPearls.jsx';
 
 
 const router = createBrowserRouter([
@@ -59,9 +64,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/about-us", element: <About /> },
-      { path: "/contact-us", element: <Contact /> },
-      // Case Studies - Our Services
-      { path: "/case-studies", element: <CaseStudies /> },
+      // Our Services
       { path: "/enterprise-portal", element: <EnterprisePortalDevelopment /> },
       { path: "/mobile-app-development", element: <MobileAppDevelopment /> },
       { path: "/website-development", element: <Website_Development /> },
@@ -80,18 +83,6 @@ const router = createBrowserRouter([
       { path: "/social-media-marketing", element: <Social_Media_Marketing /> },
       { path: "/search-engine-optimization", element: <Search_Engine_Opti /> },
       { path: "/ui-ux-design", element: <UI_UX_Design /> },
-      // Blog and Single Blogs
-      { path: "/blog", element: <Blog /> },
-      { path: "/blog/Boost-Your-Business-with-SEO-Key-Tactics-to-Drive-Organic-Traffic", element: <SingleBlog /> },
-      { path: "/blog/Revolutionize-Your-Business-with-Asvayuks-Shopify-Development", element: <Shopify_Blog /> },
-      { path: "/blog/Enhance-Efficiency-with-Custom-Enterprise-Portals", element: <Enterprise_Blog /> },
-      { path: "/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali", element: <MLM_software_developer_Chandigarh /> },
-      { path: "/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali", element: <Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali /> },
-      { path: "/blog/Crypto-Software-Developer-in-Chandigarh", element: <Crypto_Software_Developer_in_Chandigarh /> },
-      { path: "/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali", element: <Crypto_Exchange_Developer /> },
-      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <Blockchain_Developer /> },
-      { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
-      // Product Pages
       { path: "/mlm-software-chandigarh-panchkula", element: <MLM_Software /> },
       { path: "/ai-chatbot-chandigarh-panchkula", element: <AI_chatBot /> },
       { path: "/crm-erp-chandigarh-panchkula", element: <CRM_ERP /> },
@@ -107,6 +98,26 @@ const router = createBrowserRouter([
       { path: "layer1-layer2-blockchain-panchkula-chandigarh", element: <Layer1_Layer2_BlockChain /> },
       { path: "/hospital-management-panchkula-chandigarh", element: <HospitalManagement /> },
       { path: "/multi-vendor-ecommerce-panchkula-chandigarh", element: <MultivendorEcommerce /> },
+      // Blog and Single Blogs
+      { path: "/blog", element: <Blog /> },
+      { path: "/blog/Boost-Your-Business-with-SEO-Key-Tactics-to-Drive-Organic-Traffic", element: <SingleBlog /> },
+      { path: "/blog/Revolutionize-Your-Business-with-Asvayuks-Shopify-Development", element: <Shopify_Blog /> },
+      { path: "/blog/Enhance-Efficiency-with-Custom-Enterprise-Portals", element: <Enterprise_Blog /> },
+      { path: "/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali", element: <MLM_software_developer_Chandigarh /> },
+      { path: "/blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali", element: <Smart_Contract_Developer_in_Chandigarh_Panchkula_Mohali /> },
+      { path: "/blog/Crypto-Software-Developer-in-Chandigarh", element: <Crypto_Software_Developer_in_Chandigarh /> },
+      { path: "/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali", element: <Crypto_Exchange_Developer /> },
+      { path: "/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali", element: <Blockchain_Developer /> },
+      { path: "/blog/CRM-Developer-in-Chandigarh-Panchkula-Mohali", element: <CRMDdeveloper /> },
+      // Case Studies
+      { path: "/case-studies", element: <CaseStudies /> },
+      { path: "/case-studies/moonlightconcept", element: <SingleCaseStudy /> },
+      { path: "/case-studies/quadlock", element: <QuadLock /> },
+      { path: "/case-studies/themodernshop", element: <TheModernShop /> },
+      { path: "/case-studies/49thcoffee", element: <Coffee49th /> },
+      { path: "/case-studies/krishnapearlsandjewellers", element: <KrishnaPearls /> },
+      // Contact Us
+      { path: "/contact-us", element: <Contact /> },
     ],
   },
 ]);
