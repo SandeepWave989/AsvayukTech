@@ -1095,3 +1095,10 @@ textarea.input {
   text-align: center;
   font-size: 1rem;
 }
+
+@media(width < 768px){
+  .fullCaseStudy_textContent h2 {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+}
+}

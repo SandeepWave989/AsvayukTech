@@ -55,26 +55,26 @@ function CaseStudies() {
                             </div>
                         </div>
                     </Container>
-                </section>  
+                </section>
 
                 <section className="singleCaseplan py-5">
                     <Container>
 
-                        <CaseCard caseLogo={caseLogo1} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Australia' url='#' btnTitle='View Case Study' caseImg={caseStu} cardChild='card_child_1' cardImgClass='card_img' />
+                        <CaseCard caseLogo={caseLogo1} caseTitle='EVERY DAY, EVERY ADVENTURE.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Australia' url='/case-studies/quadlock' btnTitle='View Case Study' caseImg={caseStu} cardChild='card_child_1' cardImgClass='card_img' />
 
-                        <CaseCard caseLogo={caseLogo2} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Qatar' url='#' btnTitle='View Case Study' caseImg={caseStu2} cardChild='card_child_1 card_child_2' cardImgClass='card_img card_img2' />
+                        <CaseCard caseLogo={caseLogo2} caseTitle='IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Qatar' url='/case-studies/moonlightconcept' btnTitle='View Case Study' caseImg={caseStu2} cardChild='card_child_1 card_child_2' cardImgClass='card_img card_img2' />
 
-                        <CaseCard caseLogo={caseLogo3} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu3} cardChild='card_child_1 card_child_3' cardImgClass='card_img card_img3' />
+                        <CaseCard caseLogo={caseLogo3} caseTitle='Modern lighting, furniture & accessories in Ottawa Canada.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='/case-studies/themodernshop' btnTitle='View Case Study' caseImg={caseStu3} cardChild='card_child_1 card_child_3' cardImgClass='card_img card_img3' />
 
-                        <CaseCard caseLogo={caseLogo4} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='#' btnTitle='View Case Study' caseImg={caseStu4} cardChild='card_child_1 card_child_4' cardImgClass='card_img card_img4' />
+                        <CaseCard caseLogo={caseLogo4} caseTitle='Small-batch roasting and always fresh.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='Canada' url='/case-studies/49thcoffee' btnTitle='View Case Study' caseImg={caseStu4} cardChild='card_child_1 card_child_4' cardImgClass='card_img card_img4' />
 
-                        <CaseCard caseLogo={caseLogo5} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='India' url='#' btnTitle='View Case Study' caseImg={caseStu5} cardChild='card_child_1 card_child_5' cardImgClass='card_img card_img5' />
+                        <CaseCard caseLogo={caseLogo5} caseTitle='Explore our exquisite collection of pearls jewellery and find your perfect piece today!' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='India' url='/case-studies/krishnapearlsandjewellers' btnTitle='View Case Study' caseImg={caseStu5} cardChild='card_child_1 card_child_5' cardImgClass='card_img card_img5' />
 
-                        <CaseCard caseLogo={caseLogo6} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu1} cardChild='card_child_1 card_child_6' cardImgClass='card_img card_img6' />
+                        <CaseCard caseLogo={caseLogo6} caseTitle='Add Flavors to Your Recipes with the Favorite Spice-Brand of top Chefs.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/spicetribe' btnTitle='View Case Study' caseImg={caseStu1} cardChild='card_child_1 card_child_6' cardImgClass='card_img card_img6' />
 
-                        <CaseCard caseLogo={caseLogo7} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu8} cardChild='card_child_1 card_child_7' cardImgClass='card_img card_img7' />
+                        <CaseCard caseLogo={caseLogo7} caseTitle='Connecting you with skilled professionals for every task, big or small.' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/bookmytask' btnTitle='View Case Study' caseImg={caseStu8} cardChild='card_child_1 card_child_7' cardImgClass='card_img card_img7' />
 
-                        <CaseCard caseLogo={caseLogo8} caseTitle='Strengthening Online Presence Through A Robust Digital Marketing Strategy' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='#' btnTitle='View Case Study' caseImg={caseStu6} cardChild='card_child_1 card_child_8' cardImgClass='card_img card_img8' />
+                        <CaseCard caseLogo={caseLogo8} caseTitle='Explore our exquisite collection of pearls jewellery and find your perfect piece today!' tools1='shopify Development' tools2='User journey' tools3='UX Writing' countryName='California' url='/case-studies/kreshya' btnTitle='View Case Study' caseImg={caseStu6} cardChild='card_child_1 card_child_8' cardImgClass='card_img card_img8' />
 
                     </Container>
                 </section>

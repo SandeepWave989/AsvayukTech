@@ -108,7 +108,7 @@ function Footer() {
                                     <div className="contact-form col-lg-6">
                                         <span className="circle one"></span>
                                         <span className="circle two"></span>
-                                        <form action="index.html" autoComplete="off">
+                                        <form action="/" autoComplete="off">
                                             <h3 className="title">Contact us</h3>
 
                                             {/* Username input */}

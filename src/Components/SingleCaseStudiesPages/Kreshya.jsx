@@ -1,4 +1,4 @@
-import moonLight from '../../Images/kri_logo.webp';
+import moonLight from '../../Images/kre.webp';
 import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import cs1 from '../../Images/cs6.png';
@@ -21,16 +21,16 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Navigation, Scrollbar, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-const KrishnaPearls = () => {
+const Kreshya = () => {
     return (
         <>
             <section>
                 <Container fluid>
-                    <div className="row align-items-center" style={{ background: "#DADADA" }}>
+                    <div className="row align-items-center" style={{ background: "#C3CAEB" }}>
                         <div className="ms-auto col-lg-4 col-md-6 col-12 col-sm-12">
                             <div className="fullcase_details">
                                 <div className="fullCaseStudy_slider_logo">
-                                    <img src={moonLight} alt="" style={{ mixBlendMode: "darken", height: 'unset !important' }} />
+                                    <img src={moonLight} alt="" style={{ mixBlendMode: "darken", width: '20px !important' }} />
                                 </div>
                                 <div className="fullCaseStudy_textContent py-4">
                                     <h2 className="fw-semibold fs-1" style={{ textTransform: 'uppercase', lineHeight: '3.2rem' }}>Explore our exquisite collection of pearls jewellery and find your perfect piece today!</h2>
@@ -50,7 +50,7 @@ const KrishnaPearls = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center px-0">
                             <div className="fullCaseStudy_img w-75">
-                                <img src={caseStu5} alt="" className="w-100" />
+                                <img src={caseStu6} alt="" className="w-100" />
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,9 @@ const KrishnaPearls = () => {
                 <Container className="py-5" >
                     <Row>
                         <Col lg={6}>
-                            <h1 className='fw-bold mb-3'>Krishna Pearls & Jewellers</h1>
+                            <h1 className='fw-bold mb-3'>Kreshya</h1>
                             <p>
-                                Krishna Pearls & Jewellers is a well-known jewelry brand, primarily famous for its exquisite collections of pearls, diamonds, and gold jewelry. Based in India, the brand has a long-standing reputation for offering high-quality pearls, particularly South Sea and freshwater varieties, alongside traditional and contemporary jewelry designs. Their offerings include a wide range of jewelry items such as necklaces, earrings, bracelets, and rings, catering to different tastes and occasions. Krishna Pearls & Jewellers is particularly popular in cities like Hyderabad, where the brand has established a strong presence in the jewelry market.
+                                Kreshya is a well-known jewelry brand, primarily famous for its exquisite collections of pearls, diamonds, and gold jewelry. Based in India, the brand has a long-standing reputation for offering high-quality pearls, particularly South Sea and freshwater varieties, alongside traditional and contemporary jewelry designs. Their offerings include a wide range of jewelry items such as necklaces, earrings, bracelets, and rings, catering to different tastes and occasions. Kreshya is particularly popular in cities like Hyderabad, where the brand has established a strong presence in the jewelry market.
                             </p>
                         </Col>
                         <Col lg="6" md='12' xm='12' className=''>
@@ -75,7 +75,7 @@ const KrishnaPearls = () => {
                                 </div>
                                 <div className="content">
                                     <p className='text-white'>
-                                        Krishna Pearls & Jewellers’ website showcases a refined and user-friendly design, perfectly reflecting the brand’s elegant and timeless appeal. With high-quality visuals and an intuitive interface, it offers a smooth and mobile-optimized shopping experience, making it easy for customers to explore a wide range of exquisite jewelry and detailed information. The seamless user experience enhances accessibility, ensuring a hassle-free journey for both browsing and purchasing.
+                                        Kreshya’ website showcases a refined and user-friendly design, perfectly reflecting the brand’s elegant and timeless appeal. With high-quality visuals and an intuitive interface, it offers a smooth and mobile-optimized shopping experience, making it easy for customers to explore a wide range of exquisite jewelry and detailed information. The seamless user experience enhances accessibility, ensuring a hassle-free journey for both browsing and purchasing.
                                     </p>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ const KrishnaPearls = () => {
                                     Seamless User Interface
                                 </h6>
                                 <p className='cardcontent' style={{ fontSize: '14px' }}>
-                                    Develop a sleek and intuitive user interface that showcases Krishna Pearls & Jewellers' collection with easy-to-navigate categories and filters, providing customers with a smooth, enjoyable shopping experience.
+                                    Develop a sleek and intuitive user interface that showcases Kreshya' collection with easy-to-navigate categories and filters, providing customers with a smooth, enjoyable shopping experience.
                                 </p>
                             </div>
                         </div>
@@ -159,8 +159,8 @@ const KrishnaPearls = () => {
                             <h2 className='sectitle mb-3 fw-bold'>
                                 Project Goals
                             </h2>
-                            <p>The key goals for the Krishna Pearls & Jewellers website include creating a visually stunning, highly functional eCommerce platform with seamless navigation, mobile optimization, and personalized product recommendations powered by AI, all while reflecting the brand's luxury image.</p>
-                            <p>The focus is also on maximizing the accessibility of the website across all devices, ensuring that the luxury of Krishna Pearls & Jewellers is easily accessible, no matter the platform. These goals emphasize the brand’s commitment to both aesthetic and functional excellence, offering an effortless, elegant online shopping experience for customers.</p>
+                            <p>The key goals for the Kreshya website include creating a visually stunning, highly functional eCommerce platform with seamless navigation, mobile optimization, and personalized product recommendations powered by AI, all while reflecting the brand's luxury image.</p>
+                            <p>The focus is also on maximizing the accessibility of the website across all devices, ensuring that the luxury of Kreshya is easily accessible, no matter the platform. These goals emphasize the brand’s commitment to both aesthetic and functional excellence, offering an effortless, elegant online shopping experience for customers.</p>
                             <Row>
                                 <div className='col-lg-4 col-md-6 col-sm-6 col-6 mb-3 mb-lg-0 mb-md-0'>
                                     <div className='pr_goals'>
@@ -192,7 +192,7 @@ const KrishnaPearls = () => {
                                     <p className="react-text">JS</p>
                                 </div>
                                 <div className="node">
-                                    <p className="node-text">Media</p>
+                                    <p className="node-text">Shopify</p>
                                 </div>
                                 <div className="circle"></div>
                             </div>
@@ -207,7 +207,7 @@ const KrishnaPearls = () => {
                         Results After Implementation
                     </h2>
                     <p>
-                        After launching the Krishna Pearls & Jewellers website, the seamless mobile-optimized design combined with AI-driven personalized recommendations has created an engaging and luxurious customer experience. This has resulted in increased customer retention, higher conversion rates, and a stronger brand image.
+                        After launching the Kreshya website, the seamless mobile-optimized design combined with AI-driven personalized recommendations has created an engaging and luxurious customer experience. This has resulted in increased customer retention, higher conversion rates, and a stronger brand image.
                     </p>
                     <Row>
                         <div className='col-lg-8 col-md-8 col-12'>
@@ -227,7 +227,7 @@ const KrishnaPearls = () => {
                             </ul>
                         </div>
                         <div className='col-lg-4 col-md-4 col-12'>
-                            <img src={cs1} alt="" className='img-fluid h-100 object-fit-cover' />
+                            <img src={caseStu6} alt="" className='img-fluid h-100 object-fit-cover' />
                         </div>
                     </Row>
                 </Container>
@@ -244,7 +244,7 @@ const KrishnaPearls = () => {
                                 Conclusion
                             </h2>
                             <p className='text-black'>
-                                In conclusion, by combining elegant design, seamless navigation, mobile optimization, and AI-powered personalization, the Krishna Pearls & Jewellers website delivers a premier online shopping experience. This holistic approach has fostered stronger customer engagement, loyalty, and aligns with the luxurious brand image.
+                                In conclusion, by combining elegant design, seamless navigation, mobile optimization, and AI-powered personalization, the Kreshya website delivers a premier online shopping experience. This holistic approach has fostered stronger customer engagement, loyalty, and aligns with the luxurious brand image.
                             </p>
                             <p>These strategies pave the way for greater conversions, enhanced brand perception, and provide a flawless online experience that resonates with customers.</p>
                         </Col>
@@ -355,7 +355,7 @@ const KrishnaPearls = () => {
                                             </div>
                                             <div className="caseStuides_para">
                                                 <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
-                                                <h5><Link to="#">Krishna Pearls & Jewellers</Link></h5>
+                                                <h5><Link to="#">Kreshya</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -402,4 +402,4 @@ const KrishnaPearls = () => {
     )
 }
 
-export default KrishnaPearls
+export default Kreshya

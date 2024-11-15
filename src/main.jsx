@@ -55,6 +55,10 @@ import QuadLock from './Components/SingleCaseStudiesPages/QuadLock.jsx';
 import TheModernShop from './Components/SingleCaseStudiesPages/TheModernShop.jsx';
 import Coffee49th from './Components/SingleCaseStudiesPages/Coffee49th.jsx';
 import KrishnaPearls from './Components/SingleCaseStudiesPages/KrishnaPearls.jsx';
+import Spicetribe from './Components/SingleCaseStudiesPages/spicetribe.jsx';
+import Bookmytask from './Components/SingleCaseStudiesPages/Bookmytask.jsx';
+import Kreshya from './Components/SingleCaseStudiesPages/Kreshya.jsx';
+import Page404 from './Components/Page404.jsx';
 
 
 const router = createBrowserRouter([
@@ -116,8 +120,13 @@ const router = createBrowserRouter([
       { path: "/case-studies/themodernshop", element: <TheModernShop /> },
       { path: "/case-studies/49thcoffee", element: <Coffee49th /> },
       { path: "/case-studies/krishnapearlsandjewellers", element: <KrishnaPearls /> },
+      { path: "/case-studies/spicetribe", element: <Spicetribe /> },
+      { path: "/case-studies/bookmytask", element: <Bookmytask /> },
+      { path: "/case-studies/kreshya", element: <Kreshya /> },
       // Contact Us
       { path: "/contact-us", element: <Contact /> },
+      // 404 Page
+      { path: "*", element: <Page404 /> },
     ],
   },
 ]);
